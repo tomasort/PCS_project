@@ -27,7 +27,9 @@ except FileNotFoundError:
 
     data = np.loadtxt("./dataset_full.csv", delimiter = ",", skiprows=1)
 
-    data = np.delete(data, slice(39,n_cols-1),1)
+    #data = np.delete(data, slice(39,n_cols-1),1)
+    todelete = [107,104,16,102,103,4,20,110,10,38,11,108,8,13,106,15,109,9,12,14,21,39,25,24,27,30,28,29,26,23,32,31,34,33,35,22]
+    data = np.delete(data, todelete, 1)
     n_cols = data.shape[1]
     #print(data[0])
 
