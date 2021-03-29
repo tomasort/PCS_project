@@ -27,6 +27,10 @@ except FileNotFoundError:
 
     data = np.loadtxt("./dataset_full.csv", delimiter = ",", skiprows=1)
 
+    data = np.delete(data, slice(39,n_cols-1),1)
+    n_cols = data.shape[1]
+    #print(data[0])
+
     predictors = data[:, 0:n_cols-1]
     classifier = data[:, n_cols-1]
 
