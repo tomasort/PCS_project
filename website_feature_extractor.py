@@ -5,7 +5,7 @@ from nslookup import Nslookup
 from ipaddress import ip_address
 from contextlib import redirect_stdout
 from whois import whois
-import requests, argparse, sys, re, os, ipwhois, io, tld
+import requests, sys, re, os, ipwhois, io, tld
 
 
 class WebsiteFeatureExtractor:
@@ -194,7 +194,6 @@ class WebsiteFeatureExtractor:
         self.url_google_indx = False
         self.dom_google_indx = False
 
-
         page = self.fetch_page(url)
         self.content = page.content
         self.headers = page.headers
@@ -257,7 +256,8 @@ class WebsiteFeatureExtractor:
                          'time_response', 'dom_dpf', 'asn_ip', 'dom_activation_date', 'dom_expiration_date', 'num_resolved_ips', 'num_name_servers', 'num_mx_servers', 'ttl', 'tls_ssl_cert', 'num_redirects', 'url_google_indx', 'dom_google_indx', 'url_shortened']
         result = []
         for feature in correct_order:
-            result.append(self.__dict__[feature])
+            current_value = self.__dict__[feature] if self.__dict__[feature] else -1
+            result.append(int(current_value))
         return result
 
 
