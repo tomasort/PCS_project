@@ -1,15 +1,13 @@
-import pandas as pd
+from urllib.parse import urldefrag, urljoin
 import random
 import requests
 from bs4 import BeautifulSoup
 import re
-from collections import Counter
-from website import Website
 
 url_regex = re.compile(
         r'^(?:http|ftp)s?://' # http:// or https://
         r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?)|' #domain...
-        r'localhost|' #localhost...
+        r'localhost|' #localhost... probably not useful in this case
         r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})' # ...or ip
         r'(?::\d+)?' # optional port
         r'(?:/?|[/?]\S+)$', re.IGNORECASE)
@@ -42,18 +40,17 @@ class Crawler:
                     random_urls = all_links
                 for link in random_urls:
                     cur_url = link.get('href')
-                    print(cur_url)
+                    # print(cur_url)
                     if cur_url:
                         if re.match(url_regex, cur_url) is not None:
                             links.update(set(cur_url))
-                            links.update(self.crawl(cur_url, levels=levels-1))
+                            links.update(self.crawl(cur_url, levels=levels-1))  # crawl cur_url
                             continue
-                        if self.url[-1] == "/" and cur_url[0] == "/":
-                            cur_url = f"{url}{cur_url[1:]}"
-                        else:
-                            cur_url = f"{url}{cur_url}"
-                        if 'captcha' in cur_url:
-                            continue
+                        else:  # cur_url must be a relative url
+                            try:
+                                urljoin(urldefrag(url)[0], cur_url)
+                            except Exception as e:
+                                pass
                         links.update(cur_url)
 
                 if len(links) <= num_links:

@@ -7,7 +7,7 @@ import requests
 import sys
 import re
 import whois
-from website import Website
+from website_feature_extractor import WebsiteFeatureExtractor
 from crawler import Crawler
 
 def fetch_data(file_name):
