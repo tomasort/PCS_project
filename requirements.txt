@@ -20,6 +20,8 @@ defusedxml==0.6.0
 dnspython==2.0.0
 entrypoints==0.3
 future==0.18.2
+google==3.0.0
+google-search==1.1.1
 h11==0.11.0
 httpcore==0.12.2
 httpx==0.16.1
