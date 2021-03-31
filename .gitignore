@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+phishing attack papers
 # Distribution / packaging
 .Python
 build/
@@ -127,3 +127,55 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/phishing attack papers/10.1.1.218.175.pdf
+/phishing attack papers/useful_papers/504.pdf
+/phishing attack papers/useful_papers/1344-3618-1-PB.pdf
+/phishing attack papers/2012_Book_AdvancedComputingNetworkingAnd.pdf
+/phishing attack papers/2020_Book_IntelligentComputingMethodolog.pdf
+/phishing attack papers/05279573.pdf
+/phishing attack papers/06151977.pdf
+/phishing attack papers/06993036.pdf
+/phishing attack papers/07095870.pdf
+/phishing attack papers/07237323.pdf
+/phishing attack papers/07536598.pdf
+/phishing attack papers/07746247.pdf
+/phishing attack papers/07881507.pdf
+/phishing attack papers/07926371.pdf
+/phishing attack papers/08328445.pdf
+/phishing attack papers/08858884.pdf
+/phishing attack papers/useful_papers/08888416.pdf
+/phishing attack papers/useful_papers/08924660.pdf
+/phishing attack papers/useful_papers/09032492.pdf
+/phishing attack papers/09055943.pdf
+/phishing attack papers/09343044.pdf
+/phishing attack papers/09357145.pdf
+/phishing attack papers/A Self-training Method for Detection of Phishing Websites.pdf
+/phishing attack papers/ContentServer.pdf
+/phishing attack papers/ContentServer (1).pdf
+/phishing attack papers/useful_papers/ContentServer (2).pdf
+/phishing attack papers/ContentServer (3).pdf
+/data/dataset_full.csv.arff
+/.idea/dbnavigator.xml
+/phishing attack papers/Hiding in Plain Sight- The Anatomy of Malicious Pages on Facebook.pdf
+/phishing attack papers/useful_papers/IntAnti-Phish- An Intelligent Anti-Phishing Framework Using Backpropagation Neural Network.pdf
+/data/legit_urls_complete.csv
+/phishing attack papers/Machine_Learning,_Image_Processing,_Network_Securi..._----_(Lexical_Feature_Based_Feature_Selection_and_Phishing_URL_Classificatio...).pdf
+/original_datasets/majestic_million.csv
+/.idea/misc.xml
+/.idea/modules.xml
+/phishing attack papers/useful_papers/paper5.2.3.pdf
+/phishing attack papers/Paper_45-Machine_Learning_Based_Phishing_Attack.pdf
+/.idea/PCS_project.iml
+/original_datasets/phishing_dataset_1/Phishing Websites Features.docx
+/original_datasets/phishing_1.txt
+/original_datasets/phishing_2.txt
+/original_datasets/phishing_4.txt
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/phishing attack papers/useful_papers/SSRN-id3418542.pdf
+/original_datasets/phishing_dataset_1/Training Dataset.arff
+/.idea/vcs.xml
+/original_datasets/verified_online_1.csv
+/original_datasets/verified_online_2.csv
+/original_datasets/Webpages_Classification_train_data.csv
+/.idea/workspace.xml
