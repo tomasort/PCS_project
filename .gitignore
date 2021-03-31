@@ -2,13 +2,14 @@
 __pycache__/
 *.py[cod]
 *$py.class
-data/original_datasets
-.idea/
-*/.DS_Store
-.DS_Store
 original_datasets/
 phishing attack papers/
+venv/
+.idea/
 
+# Large files:
+data/legit_urls_complete.csv/
+data/dataset_full.csv.arff
 
 # C extensions
 *.so
