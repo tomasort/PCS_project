@@ -8,7 +8,7 @@ venv/
 .idea/
 
 # Large files:
-data/legit_urls_complete.csv/
+data/legit_urls_complete.csv
 data/dataset_full.csv.arff
 
 # C extensions
