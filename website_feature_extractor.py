@@ -135,7 +135,7 @@ class WebsiteFeatureExtractor:
         self.params_num_doll = count['$']
         self.params_num_perc = count['%']
         self.params_length = len(self.param_string)
-        self.params_tld_present = self.get_tld(self.param_string);  # find out if there is a tld in the param_string variabe
+        self.params_tld_present = self.get_tld(self.param_string)  # find out if there is a tld in the param_string variabe
         self.params_nums = len(self.params)
 
         # Attributes based on TLD (top level domain)
@@ -265,7 +265,7 @@ class WebsiteFeatureExtractor:
         # return a list of the features in the right order
         feature_dict = self.__dict__
         # TODO: this is probably not the best way of declaring the order of the attributes. please update
-        correct_order = ['url_num_dot', 'url_num_hyphen', 'url_num_underline', 'url_num_slash', 'url_num_quest', 'url_num_equ', 'url_num_at', 'url_num_amp', 'url_num_excl', 'url_num_spaces', 'url_num_tilde', 'url_num_comma', 'url_num_plus', 'url_num_ast', 'url_num_pound', 'url_num_doll', 'url_num_perc', 'url_length', 'url_emails',
+        correct_order = ['url_num_dot', 'url_num_hyphen', 'url_num_underline', 'url_num_slash', 'url_num_quest', 'url_num_equ', 'url_num_at', 'url_num_amp', 'url_num_excl', 'url_num_spaces', 'url_num_tilde', 'url_num_comma', 'url_num_plus', 'url_num_ast', 'url_num_pound', 'url_num_doll', 'url_num_perc', 'tld_length', 'url_length', 'url_emails',
                          'dom_num_dot', 'dom_num_hyphen', 'dom_num_underline', 'dom_num_slash', 'dom_num_quest', 'dom_num_equ', 'dom_num_at', 'dom_num_amp', 'dom_num_excl', 'dom_num_spaces', 'dom_num_tilde', 'dom_num_comma', 'dom_num_plus', 'dom_num_ast', 'dom_num_pound', 'dom_num_doll', 'dom_num_perc', 'dom_num_vowels', 'dom_length', 'dom_is_ip', 'dom_contains_server_or_client',
                          'dir_num_dot', 'dir_num_hyphen', 'dir_num_underline', 'dir_num_slash', 'dir_num_quest', 'dir_num_equ', 'dir_num_at', 'dir_num_amp', 'dir_num_excl', 'dir_num_spaces', 'dir_num_tilde', 'dir_num_comma', 'dir_num_plus', 'dir_num_ast', 'dir_num_pound', 'dir_num_doll', 'dir_num_perc', 'dir_length',
                          'file_num_dot', 'file_num_hyphen', 'file_num_underline', 'file_num_slash', 'file_num_quest', 'file_num_equ', 'file_num_at', 'file_num_amp', 'file_num_excl', 'file_num_spaces', 'file_num_tilde', 'file_num_comma', 'file_num_plus', 'file_num_ast', 'file_num_pound', 'file_num_doll', 'file_num_perc', 'file_length',
