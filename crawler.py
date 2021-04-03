@@ -12,15 +12,18 @@ url_regex = re.compile(
         r'(?::\d+)?' # optional port
         r'(?:/?|[/?]\S+)$', re.IGNORECASE)
 
+# TODO: add concurrency
 class Crawler:
+    """Class for recursively crawl the pages in a specific URL provided by the user"""
 
-    # TODO: add concurrency
     def __init__(self, url, max_tries=2, levels=2):
         self.url = url
         self.urls = self.crawl(self.url, max_tries, levels)
         pass
 
     def crawl(self, url, max_tries=2, levels=2, num_links=10):
+        """This function goes through the contents of the Page specified by the URL and finds and the URL in it
+        Then it recursively does the same thing on each URL"""
         if levels == 0:
             return []
         # Go through the website and find all the urls
@@ -76,6 +79,7 @@ class Crawler:
         return self.urls
 
     def is_captcha(self, soup):
+        """This function tests if the page is a captcha page or not"""
         # TODO: try more rules to test if a page is contains a captcha
         for html in soup.find_all("script"):
             if 'src' in html.attrs.keys() and "captcha" in html.attrs['src']:
