@@ -23,17 +23,17 @@ def fetch_data(file_name):
         result.extend(c.get_urls())
 
 
-if __name__ == '__main__':
-    # extract the command line arguments
-    # parser = argparse.ArgumentParser(description='Process urls')
-    # parser.add_argument('filename')
-    # args = parser.parse_args()
-    # print("Feature Extraction")
-    # url = args.filename
-    # Fetch the website and extract the features
-    # w = Website(url)
-    fetch_data('data/legit_sample.csv')
-
+# if __name__ == '__main__':
+#     # extract the command line arguments
+#     # parser = argparse.ArgumentParser(description='Process urls')
+#     # parser.add_argument('filename')
+#     # args = parser.parse_args()
+#     # print("Feature Extraction")
+#     # url = args.filename
+#     # Fetch the website and extract the features
+#     # w = Website(url)
+#     fetch_data('data/legit_sample.csv')
+#
 
 print("Please provide URL to test")
 url = input().strip()
