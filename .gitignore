@@ -6,6 +6,7 @@ original_datasets/
 phishing attack papers/
 venv/
 .idea/
+.DS_Store
 
 # Large files:
 data/legit_urls_complete.csv
