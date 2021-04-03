@@ -11,10 +11,10 @@ class MachineLearning:
     def __init__(self):
     #start = time.time()
         try:
-            f = open("model.ser", 'rb')
+            f = open("data/model.ser", 'rb')
             self.gnb = pickle.load(f)
             f.close()
-            f = open("data.ser", 'rb')
+            f = open("data/data.ser", 'rb')
             data = pickle.load(f)
             f.close()
             n_cols = data.shape[1]
@@ -26,7 +26,7 @@ class MachineLearning:
             X_train, self.X_test, y_train, self.y_test = train_test_split(predictorslist, classifierlist, test_size=0.2,random_state=109)
         except FileNotFoundError:
             #import data
-            with open("./dataset_full.csv") as f:
+            with open("data/dataset_full.csv") as f:
                 #determining number of columns from the first line of text
                 n_cols = len(f.readline().split(","))
 
@@ -50,7 +50,7 @@ class MachineLearning:
             X_train, self.X_test, y_train, self.y_test = train_test_split(predictorslist, classifierlist, test_size=0.2,random_state=109) # 80% training and 20% test
             self.gnb = GaussianNB()
             self.gnb.fit(X_train,y_train)
-        with open("model.ser", 'wb') as f1, open("data.ser", 'wb') as f2:
+        with open("data/model.ser", 'wb') as f1, open("data/data.ser", 'wb') as f2:
             pickle.dump(self.gnb,f1)
             pickle.dump(data,f2)
 
