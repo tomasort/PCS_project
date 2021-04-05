@@ -282,6 +282,7 @@ class WebsiteFeatureExtractor:
         result = []
         for feature in correct_order:
             current_value = self.__dict__[feature] if self.__dict__[feature]!=None else -1
+            # TODO: this is a bug. The time_response var is not an int, is a float
             result.append(int(current_value))
         return result
 
