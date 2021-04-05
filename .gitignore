@@ -2,7 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+original_datasets/
+phishing attack papers/
+venv/
+.idea/
 # C extensions
 *.so
 phishing attack papers
