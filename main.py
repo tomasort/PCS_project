@@ -1,18 +1,9 @@
-from bs4 import BeautifulSoup
-from collections import Counter
-from urllib.parse import urlparse
 import pandas as pd
 import website_feature_extractor
 import naivebayes
 import rulebased
 import numpy as np
-import argparse
-import requests
-import sys
-import re
-import whois
-from website_feature_extractor import WebsiteFeatureExtractor
-from crawler import Crawler
+from scripts.crawler import Crawler
 
 def fetch_data(file_name):
     df = pd.read_csv(file_name,)

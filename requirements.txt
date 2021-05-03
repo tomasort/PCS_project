@@ -14,7 +14,6 @@ colorama==0.4.4
 cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
-dnspython==2.0.0
 entrypoints==0.3
 future==0.18.2
 google==3.0.0
