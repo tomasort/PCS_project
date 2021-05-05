@@ -1,5 +1,6 @@
 import website_feature_extractor
-import naivebayestemp
+import naivebayes
+import randomforest
 import rulebased
 import numpy as np
 import sys
@@ -37,7 +38,11 @@ for c in range(len(headings)):
 
 data = np.delete(vector, todelete, 0)
 headings = np.delete(headings, todelete, 0)
-model = naivebayestemp.MachineLearning()
+
+
+##model = naivebayes.MachineLearning()
+#try:
+model=randomforest.RandomForest()
 encoders = model.getencoders()
 datalist = data.tolist()
 
@@ -55,10 +60,8 @@ for c in range(len(headings)):
         datalist[c] = encoders[3].transform([str(datalist[c]).strip('"')])[0]
 
 prediction = model.predict([datalist])[0]
-# except:
-#     e = sys.exc_info()[0]
-#     print(e)
-#     prediction = -1
+#except:
+    #prediction = -1
 
 rules = rulebased.RuleBased()
 flags = rules.flags(url)
