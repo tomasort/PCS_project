@@ -27,7 +27,7 @@ for label, row in df.iterrows():
     error = False
     while True:
         try:
-            response = requests.post(url="https://safebrowsing.googleapis.com/v4/threatMatches:find?key=AIzaSyC8bAWVsuNywK2nBbyNUObkLzIBmdGH6g4", json=x, headers={"Content-Type" :"application/json"})
+            response = requests.post(url="https://safebrowsing.googleapis.com/v4/threatMatches:find?key=AIzaSyAPyaxfoiOPTZxAtK9nbYYzuamr7wkrlts", json=x, headers={"Content-Type" :"application/json"})
             if i > 5:
                 break
             if response.status_code != 200:
