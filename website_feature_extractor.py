@@ -240,7 +240,7 @@ class WebsiteFeatureExtractor:
         self.features['tld_in_params'] = 1 if not param_tld is None and not param_tld.empty else 0
         self.features['params_nums'] = len(self.params) if self.param_string else -1
 
-        print("Looking for TLD")
+
         # Attributes based on TLD (top level domain)
         try:
             self.tld = tld.get_tld(self.url)
@@ -262,12 +262,12 @@ class WebsiteFeatureExtractor:
                 self.features['tld_length'] = len(self.tld) if self.tld else -1
 
 
-        print("Trying to reach the whois server")
+
         self.whois_record = None
         try:
             self.get_whois(parsed_url)
         except:
-            print("Exception on getting whois")
+            #print("Exception on getting whois")
             self.whois_record = None
 
         self.features['whois'] = 1 if self.whois_record else 0
@@ -296,7 +296,7 @@ class WebsiteFeatureExtractor:
         # Get info from IP address and WHOIS server stuff
         # This proxy can only be used from a specific ip address and will refuse connection otherwise
 
-        print("Serching for other IPs")
+
         obj = None
         try:
             if self.use_proxy:
@@ -471,12 +471,12 @@ class WebsiteFeatureExtractor:
             try:
                 p = Proxies()
                 response = requests.get(url, headers=p.get_headers(), timeout=self.timeout, proxies=proxy, allow_redirects=True)
-                if response.status_code == 200:
-                    print(f'Success! {url}')
-                elif response.status_code == 404:
-                    print('Page Not Found.')
-                else:
-                    print('Status code: ', response.status_code)
+                # if response.status_code == 200:
+                #     print(f'Success! {url}')
+                # elif response.status_code == 404:
+                #     print('Page Not Found.')
+                # else:
+                #     print('Status code: ', response.status_code)
                 self.features['tls_ssl_cert'] = 1
                 self.features['status_code'] = response.status_code
                 self.features['cookies'] = 1 if 'Cookie' in response.headers.keys() or 'Set-Cookie' in response.headers.keys() else 0
@@ -487,8 +487,8 @@ class WebsiteFeatureExtractor:
                 self.features['live'] = 1
                 return BeautifulSoup(response.text, 'lxml')
             except requests.exceptions.SSLError as e:
-                print("Error3", e)
-                print("Trying without verifying tls and ssl")
+                #print("Error3", e)
+                #print("Trying without verifying tls and ssl")
                 self.features['tls_ssl_cert'] = 0
                 try:
                     url = url.replace("https", "http")
@@ -502,13 +502,13 @@ class WebsiteFeatureExtractor:
                     self.features['live'] = 1
                     return BeautifulSoup(response.text, 'lxml')
                 except Exception as e:
-                    print("Error1", e)
+                    #print("Error1", e)
                     return None
             except Exception as e:
-                print("Error2", e)
-                if "Errno 24" in str(e) or "open files" in str(e):
-                    print("This is BAD")
-                    raise(e)
+                #print("Error2", e)
+                #if "Errno 24" in str(e) or "open files" in str(e):
+                    #print("This is BAD")
+                    #raise(e)
                 retries += 1
                 break
         self.features['live'] = 0
@@ -539,9 +539,9 @@ class WebsiteFeatureExtractor:
         out = f.getvalue()  # get the string from f into out
         error_pattern = re.compile(r'\bError.*')
         x = [i for i in out.split('\n') if error_pattern.match(i)]
-        if len(x) > 0:
-            print("There was an error in whois")
-            print(out)
+        #if len(x) > 0:
+            #print("There was an error in whois")
+            #print(out)
 
 
     def get_expiration_date(self, whois_record):
