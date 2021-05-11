@@ -2,7 +2,7 @@
 
 Command line application to predict if a website is a phishing site or not. 
 
-##Introduction
+## Introduction
 In this project we use a __Random Forest__ model along with several rules to be able to predict 
 with high accuracy if a website is part of a phishing attack or if it is a legitimate website.
 
@@ -16,15 +16,15 @@ The code used to scrape the content of target websites provided by users is loca
 
 The main point of entry into our application is **main.py**
 
-##Installation
+## Installation
 To be able to run our program you must first install the requirements. To install all the requirements in one go use:
 ```pip install -r requirements.txt```
 
-##Running the Program
+## Running the Program
 To run our program, use:
 ```python3 main.py```
 
-##Testing
+## Testing
 To test our program please visit https://phishtank.com/ to find phishing URLs. 
 
 Some of the known phishing URLs from Phishtank.com that you can try right now include: 
@@ -47,13 +47,13 @@ Some challenging non-phishing URLs that we have tried and successfully classifie
 * https://www.youtube.com/watch?v=mPY7Mq4M_Co&t=1s&ab_channel=MarcRebillet
 * https://gsas.nyu.edu/academic-and-professional-development.html
 
-##Team
+## Team
 
 Read Brown, rwb319, rwb319@nyu.edu
 
 Tomas Ortega, tor213, tor213@nyu.edu
 
-###Original dataset used until midterm report
+### Original dataset used until midterm report
 the original dataset we used until we decided to collect our own data can be found using this link.
 
 https://data.mendeley.com/datasets/72ptz43s9v/1
