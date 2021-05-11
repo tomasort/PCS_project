@@ -34,13 +34,13 @@ class Proxies:
         self.ssl_url = ssl_proxy_list
 
         # Logging info
-        self.logger = logging.getLogger(__name__)
-        self.logger.setLevel(logging.DEBUG)
-        self.formatter = logging.Formatter('%(asctime)s : %(filename)s : %(funcName)s : %(levelname)s : %(message)s')
-        self.file_handler = logging.FileHandler(os.path.abspath('../log_data/proxies.log'))
-        self.file_handler.setLevel(logging.DEBUG)
-        self.file_handler.setFormatter(self.formatter)
-        self.logger.addHandler(self.file_handler)
+        # self.logger = logging.getLogger(__name__)
+        # self.logger.setLevel(logging.DEBUG)
+        # self.formatter = logging.Formatter('%(asctime)s : %(filename)s : %(funcName)s : %(levelname)s : %(message)s')
+        # self.file_handler = logging.FileHandler(os.path.abspath('../log_data/proxies.log'))
+        # self.file_handler.setLevel(logging.DEBUG)
+        # self.file_handler.setFormatter(self.formatter)
+        # self.logger.addHandler(self.file_handler)
 
     def get_headers(self):
         headers = {
@@ -106,8 +106,9 @@ class Proxies:
                 response = requests.get(self.pp_url)
                 proxies.append(response.json()['data'][0]['ipPort'])  # append ip:port for each proxy
             except Exception as e:
-                self.logger.error(f"Error fetching proxy from {self.pp_url}")
-        self.logger.info(f"Fetched {len(proxies)} from {self.pp_url}")
+                pass
+                # self.logger.error(f"Error fetching proxy from {self.pp_url}")
+        # self.logger.info(f"Fetched {len(proxies)} from {self.pp_url}")
         return proxies
 
     async def get_proxy_scrape(self):
@@ -116,11 +117,13 @@ class Proxies:
             response = requests.get(self.ps_url)
             if response.status_code == 200:
                 proxies = response.text.split('\r\n')
-                self.logger.info(f"Fetched {len(proxies)} from {self.ps_url}")
+                # self.logger.info(f"Fetched {len(proxies)} from {self.ps_url}")
             else:
-                self.logger.error(f"Status Code {response.status_code} from ProxyScrape .. ")
+                pass
+                # self.logger.error(f"Status Code {response.status_code} from ProxyScrape .. ")
         except Exception as e:
-            self.logger.error(f"Error fetching proxy from ProxyScape: {self.ps_url} {e}")
+            pass
+            # self.logger.error(f"Error fetching proxy from ProxyScape: {self.ps_url} {e}")
         return proxies
 
     async def get_free_proxy_list(self):
@@ -131,11 +134,13 @@ class Proxies:
                 soup = BeautifulSoup(response.content, "lxml")
                 textarea = soup.find('textarea').text
                 proxies = re.findall('\d+\.\d+\.\d+\.\d+\:\d+', textarea)
-                self.logger.info(f"Fetched {len(proxies)} from {self.fpl_url}")
+                # self.logger.info(f"Fetched {len(proxies)} from {self.fpl_url}")
             else:
-                self.logger.error(f"Status Code {response.status_code} from free-proxy-list .. ")
+                pass
+                # self.logger.error(f"Status Code {response.status_code} from free-proxy-list .. ")
         except Exception as e:
-            self.logger.error(f"Error fetching proxy from free-proxy-list: {self.fpl_url} {e}")
+            pass
+            # self.logger.error(f"Error fetching proxy from free-proxy-list: {self.fpl_url} {e}")
         return proxies
 
     async def get_ssl_proxy_list(self):
@@ -145,12 +150,14 @@ class Proxies:
                 soup = BeautifulSoup(response.content, "lxml")
                 textarea = soup.find('textarea').text
                 proxies = re.findall('\d+\.\d+\.\d+\.\d+\:\d+', textarea)
-                self.logger.info(f"Fetched {len(proxies)} from {self.ssl_url}")
+                # self.logger.info(f"Fetched {len(proxies)} from {self.ssl_url}")
                 return proxies
             else:
-                self.logger.error(f"Status Code {response.status_code} from free-proxy-list .. ")
+                pass
+                # self.logger.error(f"Status Code {response.status_code} from free-proxy-list .. ")
         except Exception as e:
-            self.logger.error(f"Error fetching proxy from free-proxy-list: {self.ssl_url} {e}")
+            pass
+            # self.logger.error(f"Error fetching proxy from free-proxy-list: {self.ssl_url} {e}")
         return []
 
 

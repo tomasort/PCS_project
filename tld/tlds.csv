@@ -1,501 +1,410 @@
-TLD,Alexa #,Domain #,Start Date,Zone,Whois Server,Registry
-com,261079,153260052,1985-01-01,com,whois.verisign-grs.com,"<a class=""jqgrid-link"" href=""http://www.verisigninc.com"" target=""_blank"">http://www.verisigninc.com</a>"
-ru,27980,0,1994-04-07,ru,whois.tcinet.ru,"<a class=""jqgrid-link"" href=""http://www.cctld.ru/en"" target=""_blank"">http://www.cctld.ru/en</a>"
-ir,19858,0,1994-04-06,ir,whois.nic.ir,"<a class=""jqgrid-link"" href=""http://www.nic.ir"" target=""_blank"">http://www.nic.ir</a>"
-net,19480,13282076,1985-01-01,net,whois.verisign-grs.com,"<a class=""jqgrid-link"" href=""http://www.verisigninc.com"" target=""_blank"">http://www.verisigninc.com</a>"
-org,17243,10388953,1985-01-01,org,whois.pir.org,"<a class=""jqgrid-link"" href=""http://www.pir.org"" target=""_blank"">http://www.pir.org</a>"
-in,8330,0,1989-05-08,in,whois.registry.in,"<a class=""jqgrid-link"" href=""http://www.registry.in"" target=""_blank"">http://www.registry.in</a>"
-ua,6069,0,1992-12-01,ua,whois.ua,"<a class=""jqgrid-link"" href=""http://hostmaster.ua/"" target=""_blank"">http://hostmaster.ua/</a>"
-tr,5385,0,1990-09-17,tr,whois.nic.tr,"<a class=""jqgrid-link"" href=""http://www.nic.tr"" target=""_blank"">http://www.nic.tr</a>"
-io,5338,0,1997-09-16,io,whois.nic.io,"<a class=""jqgrid-link"" href=""http://www.nic.io/"" target=""_blank"">http://www.nic.io/</a>"
-au,4949,0,1986-03-05,au,whois.auda.org.au,"<a class=""jqgrid-link"" href=""https://www.auda.org.au/domains/au-domains/"" target=""_blank"">https://www.auda.org.au/domains/au-domains/</a>"
-co,4779,0,1991-12-24,co,whois.nic.co,"<a class=""jqgrid-link"" href=""http://www.cointernet.com.co"" target=""_blank"">http://www.cointernet.com.co</a>"
-gr,4353,0,1989-02-19,gr,"","<a class=""jqgrid-link"" href=""http://www.gr"" target=""_blank"">http://www.gr</a>"
-vn,4211,0,1994-04-14,vn,"","<a class=""jqgrid-link"" href=""http://www.vnnic.net.vn"" target=""_blank"">http://www.vnnic.net.vn</a>"
-uk,3856,0,1985-07-24,uk,whois.nic.uk,"<a class=""jqgrid-link"" href=""http://www.nic.uk/"" target=""_blank"">http://www.nic.uk/</a>"
-ca,3451,0,1987-05-14,ca,whois.cira.ca,"<a class=""jqgrid-link"" href=""http://www.cira.ca/"" target=""_blank"">http://www.cira.ca/</a>"
-id,3248,0,1993-02-27,id,whois.id,"<a class=""jqgrid-link"" href=""https://pandi.id"" target=""_blank"">https://pandi.id</a>"
-info,3198,3939430,2001-06-26,info,whois.afilias.net,"<a class=""jqgrid-link"" href=""http://www.nic.info"" target=""_blank"">http://www.nic.info</a>"
-jp,2551,0,1986-08-05,jp,whois.jprs.jp,"<a class=""jqgrid-link"" href=""https://jprs.jp/"" target=""_blank"">https://jprs.jp/</a>"
-de,2358,0,1986-11-05,de,whois.denic.de,"<a class=""jqgrid-link"" href=""http://www.denic.de/"" target=""_blank"">http://www.denic.de/</a>"
-il,2323,0,1985-10-24,il,whois.isoc.org.il,"<a class=""jqgrid-link"" href=""http://www.isoc.org.il/domains"" target=""_blank"">http://www.isoc.org.il/domains</a>"
-xyz,2276,3025704,2014-02-06,xyz,whois.nic.xyz,"<a class=""jqgrid-link"" href=""https://nic.xyz"" target=""_blank"">https://nic.xyz</a>"
-me,2096,0,2007-09-24,me,whois.nic.me,"<a class=""jqgrid-link"" href=""http://www.domain.me"" target=""_blank"">http://www.domain.me</a>"
-fr,1984,0,1986-09-02,fr,whois.nic.fr,"<a class=""jqgrid-link"" href=""http://www.nic.fr/"" target=""_blank"">http://www.nic.fr/</a>"
-tv,1624,0,1996-03-18,tv,tvwhois.verisign-grs.com,"<a class=""jqgrid-link"" href=""http://www.tv"" target=""_blank"">http://www.tv</a>"
-by,1539,0,1994-05-10,by,whois.cctld.by,"<a class=""jqgrid-link"" href=""https://cctld.by"" target=""_blank"">https://cctld.by</a>"
-tw,1539,0,1989-07-31,tw,whois.twnic.net.tw,"<a class=""jqgrid-link"" href=""http://rs.twnic.net.tw"" target=""_blank"">http://rs.twnic.net.tw</a>"
-online,1511,1787268,2015-03-06,online,whois.nic.online,"<a class=""jqgrid-link"" href=""http://www.radixregistry.com"" target=""_blank"">http://www.radixregistry.com</a>"
-edu,1374,0,1985-01-01,edu,whois.educause.edu,"<a class=""jqgrid-link"" href=""http://www.educause.edu/edudomain"" target=""_blank"">http://www.educause.edu/edudomain</a>"
-pk,1248,0,1992-06-03,pk,"","<a class=""jqgrid-link"" href=""http://www.pknic.net.pk/"" target=""_blank"">http://www.pknic.net.pk/</a>"
-cn,1193,0,1990-11-28,cn,whois.cnnic.cn,"<a class=""jqgrid-link"" href=""http://www.cnnic.cn/"" target=""_blank"">http://www.cnnic.cn/</a>"
-app,1131,713900,2015-06-25,app,whois.nic.google,"<a class=""jqgrid-link"" href=""https://www.registry.google"" target=""_blank"">https://www.registry.google</a>"
-eu,1126,0,2005-04-28,eu,whois.eu,"<a class=""jqgrid-link"" href=""http://www.eurid.eu"" target=""_blank"">http://www.eurid.eu</a>"
-ae,1041,0,1992-12-01,ae,whois.aeda.net.ae,"<a class=""jqgrid-link"" href=""http://aeda.ae/"" target=""_blank"">http://aeda.ae/</a>"
-biz,1025,1377529,2001-06-26,biz,whois.nic.biz,"<a class=""jqgrid-link"" href=""http://www.nic.biz"" target=""_blank"">http://www.nic.biz</a>"
-pro,1022,268283,2002-05-08,pro,whois.afilias.net,"<a class=""jqgrid-link"" href=""http://www.registry.pro/"" target=""_blank"">http://www.registry.pro/</a>"
-us,1006,0,1985-02-15,us,whois.nic.us,"<a class=""jqgrid-link"" href=""http://www.nic.us"" target=""_blank"">http://www.nic.us</a>"
-club,1002,1046714,2014-01-09,club,whois.nic.club,"<a class=""jqgrid-link"" href=""http://dotclub.com"" target=""_blank"">http://dotclub.com</a>"
-ma,991,0,1993-11-26,ma,whois.registre.ma,"<a class=""jqgrid-link"" href=""http://www.registre.ma"" target=""_blank"">http://www.registre.ma</a>"
-es,990,0,1988-04-14,es,whois.nic.es,"<a class=""jqgrid-link"" href=""http://www.nic.es/"" target=""_blank"">http://www.nic.es/</a>"
-site,974,1067958,2015-03-06,site,whois.nic.site,"<a class=""jqgrid-link"" href=""http://www.radixregistry.com"" target=""_blank"">http://www.radixregistry.com</a>"
-mx,961,0,1989-02-01,mx,whois.mx,"<a class=""jqgrid-link"" href=""http://www.registry.mx/"" target=""_blank"">http://www.registry.mx/</a>"
-рф,950,0,2010-05-12,xn--p1ai,whois.tcinet.ru,"<a class=""jqgrid-link"" href=""http://cctld.ru/en"" target=""_blank"">http://cctld.ru/en</a>"
-br,946,0,1989-04-18,br,whois.registro.br,"<a class=""jqgrid-link"" href=""http://registro.br/"" target=""_blank"">http://registro.br/</a>"
-my,945,0,1987-06-08,my,whois.mynic.my,"<a class=""jqgrid-link"" href=""http://www.mynic.my"" target=""_blank"">http://www.mynic.my</a>"
-it,939,0,1987-12-23,it,whois.nic.it,"<a class=""jqgrid-link"" href=""http://www.nic.it/"" target=""_blank"">http://www.nic.it/</a>"
-th,914,0,1988-09-07,th,whois.thnic.co.th,"<a class=""jqgrid-link"" href=""http://www.thnic.co.th"" target=""_blank"">http://www.thnic.co.th</a>"
-pl,873,0,1990-07-30,pl,whois.dns.pl,"<a class=""jqgrid-link"" href=""http://www.dns.pl/english/"" target=""_blank"">http://www.dns.pl/english/</a>"
-ch,855,0,1987-05-20,ch,whois.nic.ch,"<a class=""jqgrid-link"" href=""https://www.nic.ch/"" target=""_blank"">https://www.nic.ch/</a>"
-cc,841,0,1997-10-13,cc,ccwhois.verisign-grs.com,"<a class=""jqgrid-link"" href=""http://www.nic.cc/"" target=""_blank"">http://www.nic.cc/</a>"
-za,834,0,1990-11-07,za,whois.nic.za,"<a class=""jqgrid-link"" href=""http://www.zadna.org.za/"" target=""_blank"">http://www.zadna.org.za/</a>"
-ar,831,0,1987-09-23,ar,whois.nic.ar,"<a class=""jqgrid-link"" href=""https://nic.ar"" target=""_blank"">https://nic.ar</a>"
-kz,811,0,1994-09-19,kz,whois.nic.kz,"<a class=""jqgrid-link"" href=""http://www.nic.kz"" target=""_blank"">http://www.nic.kz</a>"
-np,808,0,1995-01-25,np,"","<a class=""jqgrid-link"" href=""http://www.mos.com.np"" target=""_blank"">http://www.mos.com.np</a>"
-sa,772,0,1994-05-17,sa,whois.nic.net.sa,"<a class=""jqgrid-link"" href=""http://www.nic.net.sa/"" target=""_blank"">http://www.nic.net.sa/</a>"
-nz,759,0,1987-01-19,nz,whois.srs.net.nz,"<a class=""jqgrid-link"" href=""http://www.dnc.org.nz/"" target=""_blank"">http://www.dnc.org.nz/</a>"
-bd,754,0,1999-05-20,bd,"","<a class=""jqgrid-link"" href=""http://domainreg.btcl.com.bd/"" target=""_blank"">http://domainreg.btcl.com.bd/</a>"
-kr,744,0,1986-09-29,kr,whois.kr,"<a class=""jqgrid-link"" href=""http://www.nic.or.kr/"" target=""_blank"">http://www.nic.or.kr/</a>"
-live,733,443275,2015-06-25,live,whois.nic.live,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-su,709,0,1990-09-19,su,whois.tcinet.ru,undefined
-sg,692,0,1988-10-19,sg,whois.sgnic.sg,"<a class=""jqgrid-link"" href=""http://www.sgnic.sg"" target=""_blank"">http://www.sgnic.sg</a>"
-nl,675,0,1986-04-25,nl,whois.domain-registry.nl,"<a class=""jqgrid-link"" href=""https://www.sidn.nl/"" target=""_blank"">https://www.sidn.nl/</a>"
-cl,636,0,1995-01-27,cl,whois.nic.cl,"<a class=""jqgrid-link"" href=""http://www.nic.cl/"" target=""_blank"">http://www.nic.cl/</a>"
-rs,618,0,2007-09-24,rs,whois.rnids.rs,"<a class=""jqgrid-link"" href=""http://www.rnids.rs"" target=""_blank"">http://www.rnids.rs</a>"
-top,531,1093205,2014-07-24,top,whois.nic.top,"<a class=""jqgrid-link"" href=""http://www.nic.top"" target=""_blank"">http://www.nic.top</a>"
-lk,514,0,1990-06-15,lk,whois.nic.lk,"<a class=""jqgrid-link"" href=""http://www.nic.lk/"" target=""_blank"">http://www.nic.lk/</a>"
-ng,491,0,1995-03-15,ng,whois.nic.net.ng,"<a class=""jqgrid-link"" href=""http://www.nira.org.ng/"" target=""_blank"">http://www.nira.org.ng/</a>"
-gov,468,0,1985-01-01,gov,whois.dotgov.gov,"<a class=""jqgrid-link"" href=""http://www.dotgov.gov"" target=""_blank"">http://www.dotgov.gov</a>"
-pe,460,0,1991-11-25,pe,kero.yachay.pe,"<a class=""jqgrid-link"" href=""http://www.nic.pe"" target=""_blank"">http://www.nic.pe</a>"
-shop,453,801328,2016-05-05,shop,whois.nic.shop,"<a class=""jqgrid-link"" href=""http://www.gmoregistry.com/en/"" target=""_blank"">http://www.gmoregistry.com/en/</a>"
-ph,452,0,1990-09-14,ph,"","<a class=""jqgrid-link"" href=""http://dot.ph"" target=""_blank"">http://dot.ph</a>"
-ai,439,0,1995-02-16,ai,whois.nic.ai,"<a class=""jqgrid-link"" href=""http://whois.ai"" target=""_blank"">http://whois.ai</a>"
-cz,431,0,1993-01-13,cz,whois.nic.cz,"<a class=""jqgrid-link"" href=""http://www.nic.cz/"" target=""_blank"">http://www.nic.cz/</a>"
-se,422,0,1986-09-04,se,whois.iis.se,"<a class=""jqgrid-link"" href=""https://www.internetstiftelsen.se"" target=""_blank"">https://www.internetstiftelsen.se</a>"
-hk,421,0,1990-01-03,hk,whois.hkirc.hk,"<a class=""jqgrid-link"" href=""http://www.hkirc.hk"" target=""_blank"">http://www.hkirc.hk</a>"
-ro,397,0,1993-02-26,ro,whois.rotld.ro,"<a class=""jqgrid-link"" href=""http://www.rotld.ro/"" target=""_blank"">http://www.rotld.ro/</a>"
-store,381,537388,2016-02-11,store,whois.nic.store,"<a class=""jqgrid-link"" href=""http://radix.website/"" target=""_blank"">http://radix.website/</a>"
-news,378,71334,2015-03-12,news,whois.nic.news,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-az,375,0,1993-08-25,az,"","<a class=""jqgrid-link"" href=""http://www.whois.az/"" target=""_blank"">http://www.whois.az/</a>"
-tn,358,0,1991-05-17,tn,whois.ati.tn,"<a class=""jqgrid-link"" href=""http://whois.ati.tn"" target=""_blank"">http://whois.ati.tn</a>"
-to,349,0,1995-12-18,to,whois.tonic.to,"<a class=""jqgrid-link"" href=""http://www.tonic.to/"" target=""_blank"">http://www.tonic.to/</a>"
-be,342,0,1988-08-05,be,whois.dns.be,"<a class=""jqgrid-link"" href=""https://www.dnsbelgium.be"" target=""_blank"">https://www.dnsbelgium.be</a>"
-am,334,0,1994-08-26,am,whois.amnic.net,"<a class=""jqgrid-link"" href=""https://www.amnic.net/"" target=""_blank"">https://www.amnic.net/</a>"
-ge,331,0,1992-12-02,ge,whois.nic.ge,"<a class=""jqgrid-link"" href=""http://nic.ge"" target=""_blank"">http://nic.ge</a>"
-finance,312,26169,2014-04-24,finance,whois.nic.finance,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-pw,311,0,1997-06-12,pw,whois.nic.pw,"<a class=""jqgrid-link"" href=""http://www.registry.pw"" target=""_blank"">http://www.registry.pw</a>"
-dev,307,250140,2014-11-20,dev,whois.nic.google,"<a class=""jqgrid-link"" href=""https://www.registry.google"" target=""_blank"">https://www.registry.google</a>"
-mk,304,0,1993-09-23,mk,whois.marnet.mk,"<a class=""jqgrid-link"" href=""http://marnet.mk/"" target=""_blank"">http://marnet.mk/</a>"
-hu,294,0,1990-11-07,hu,whois.nic.hu,"<a class=""jqgrid-link"" href=""http://www.nic.hu"" target=""_blank"">http://www.nic.hu</a>"
-tech,294,329366,2015-03-12,tech,whois.nic.tech,"<a class=""jqgrid-link"" href=""http://www.radixregistry.com"" target=""_blank"">http://www.radixregistry.com</a>"
-eg,277,0,1990-11-30,eg,"","<a class=""jqgrid-link"" href=""http://www.egregistry.eg/"" target=""_blank"">http://www.egregistry.eg/</a>"
-space,267,314440,2014-05-22,space,whois.nic.space,"<a class=""jqgrid-link"" href=""http://radixregistry.com/"" target=""_blank"">http://radixregistry.com/</a>"
-link,262,120696,2014-01-09,link,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-dz,261,0,1994-01-03,dz,whois.nic.dz,"<a class=""jqgrid-link"" href=""http://www.nic.dz"" target=""_blank"">http://www.nic.dz</a>"
-tk,261,0,1997-11-07,tk,whois.dot.tk,"<a class=""jqgrid-link"" href=""http://www.dot.tk"" target=""_blank"">http://www.dot.tk</a>"
-dk,260,0,1987-07-14,dk,whois.dk-hostmaster.dk,"<a class=""jqgrid-link"" href=""https://www.dk-hostmaster.dk/"" target=""_blank"">https://www.dk-hostmaster.dk/</a>"
-fun,257,199010,2016-11-30,fun,whois.nic.fun,"<a class=""jqgrid-link"" href=""http://www.radixregistry.com"" target=""_blank"">http://www.radixregistry.com</a>"
-ie,238,0,1988-01-27,ie,whois.weare.ie,"<a class=""jqgrid-link"" href=""http://www.weare.ie"" target=""_blank"">http://www.weare.ie</a>"
-md,237,0,1994-03-24,md,whois.nic.md,"<a class=""jqgrid-link"" href=""http://www.nic.md"" target=""_blank"">http://www.nic.md</a>"
-life,234,217529,2014-05-08,life,whois.nic.life,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-ke,231,0,1993-04-29,ke,whois.kenic.or.ke,"<a class=""jqgrid-link"" href=""http://www.kenic.or.ke"" target=""_blank"">http://www.kenic.or.ke</a>"
-gg,231,0,1996-08-07,gg,whois.gg,"<a class=""jqgrid-link"" href=""http://www.nic.gg"" target=""_blank"">http://www.nic.gg</a>"
-vip,229,806768,2015-07-30,vip,whois.nic.vip,"<a class=""jqgrid-link"" href=""http://mm-registry.com"" target=""_blank"">http://mm-registry.com</a>"
-at,222,0,1988-01-20,at,whois.nic.at,"<a class=""jqgrid-link"" href=""http://www.nic.at/"" target=""_blank"">http://www.nic.at/</a>"
-asia,221,196532,2007-05-02,asia,whois.nic.asia,"<a class=""jqgrid-link"" href=""http://www.registry.asia"" target=""_blank"">http://www.registry.asia</a>"
-no,217,0,1987-03-17,no,whois.norid.no,"<a class=""jqgrid-link"" href=""http://www.norid.no"" target=""_blank"">http://www.norid.no</a>"
-fi,210,0,1986-12-17,fi,whois.fi,"<a class=""jqgrid-link"" href=""https://domain.fi"" target=""_blank"">https://domain.fi</a>"
-pt,204,0,1988-06-30,pt,whois.dns.pt,"<a class=""jqgrid-link"" href=""http://www.dns.pt/"" target=""_blank"">http://www.dns.pt/</a>"
-cloud,203,210383,2015-06-18,cloud,whois.nic.cloud,"<a class=""jqgrid-link"" href=""https://www.getdotcloud.com"" target=""_blank"">https://www.getdotcloud.com</a>"
-one,199,91953,2014-12-18,one,whois.nic.one,"<a class=""jqgrid-link"" href=""http://www.one.com/"" target=""_blank"">http://www.one.com/</a>"
-ws,198,0,1995-07-14,ws,whois.website.ws,"<a class=""jqgrid-link"" href=""http://www.website.ws"" target=""_blank"">http://www.website.ws</a>"
-do,197,0,1991-08-25,do,whois.nic.do,"<a class=""jqgrid-link"" href=""http://www.nic.do"" target=""_blank"">http://www.nic.do</a>"
-lt,197,0,1992-06-03,lt,whois.domreg.lt,"<a class=""jqgrid-link"" href=""http://www.domreg.lt"" target=""_blank"">http://www.domreg.lt</a>"
-mn,196,0,1995-03-02,mn,whois.nic.mn,"<a class=""jqgrid-link"" href=""http://www.nic.mn"" target=""_blank"">http://www.nic.mn</a>"
-lv,196,0,1993-04-29,lv,whois.nic.lv,"<a class=""jqgrid-link"" href=""http://www.nic.lv/"" target=""_blank"">http://www.nic.lv/</a>"
-mobi,195,322646,2005-10-17,mobi,whois.nic.mobi,"<a class=""jqgrid-link"" href=""http://www.mtld.mobi"" target=""_blank"">http://www.mtld.mobi</a>"
-uz,188,0,1995-04-29,uz,whois.cctld.uz,"<a class=""jqgrid-link"" href=""http://www.cctld.uz/"" target=""_blank"">http://www.cctld.uz/</a>"
-network,185,61042,2014-08-18,network,whois.nic.network,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-ec,185,0,1991-02-01,ec,whois.nic.ec,"<a class=""jqgrid-link"" href=""http://www.nic.ec"" target=""_blank"">http://www.nic.ec</a>"
-website,184,287027,2014-05-22,website,whois.nic.website,"<a class=""jqgrid-link"" href=""http://radixregistry.com/"" target=""_blank"">http://radixregistry.com/</a>"
-media,177,60011,2014-04-03,media,whois.nic.media,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-ps,173,0,2000-03-22,ps,"","<a class=""jqgrid-link"" href=""http://www.nic.ps"" target=""_blank"">http://www.nic.ps</a>"
-hr,168,0,1993-02-27,hr,whois.dns.hr,"<a class=""jqgrid-link"" href=""http://www.dns.hr"" target=""_blank"">http://www.dns.hr</a>"
-blog,168,188142,2016-05-12,blog,whois.nic.blog,"<a class=""jqgrid-link"" href=""http://nic.blog"" target=""_blank"">http://nic.blog</a>"
-jo,161,0,1994-11-23,jo,"","<a class=""jqgrid-link"" href=""https://www.dns.jo/login.aspx"" target=""_blank"">https://www.dns.jo/login.aspx</a>"
-sk,156,0,1993-03-29,sk,whois.sk-nic.sk,"<a class=""jqgrid-link"" href=""http://www.sk-nic.sk"" target=""_blank"">http://www.sk-nic.sk</a>"
-work,149,557114,2014-08-18,work,whois.nic.work,"<a class=""jqgrid-link"" href=""http://mm-registry.com/"" target=""_blank"">http://mm-registry.com/</a>"
-uy,146,0,1990-09-10,uy,whois.nic.org.uy,"<a class=""jqgrid-link"" href=""http://www.nic.org.uy/"" target=""_blank"">http://www.nic.org.uy/</a>"
-bg,144,0,1995-01-03,bg,whois.register.bg,"<a class=""jqgrid-link"" href=""http://www.register.bg"" target=""_blank"">http://www.register.bg</a>"
-al,143,0,1992-04-21,al,whois.nic.al,"<a class=""jqgrid-link"" href=""http://www.akep.al/sq/regjistrim-domain"" target=""_blank"">http://www.akep.al/sq/regjistrim-domain</a>"
-fm,143,0,1995-04-19,fm,whois.nic.fm,"<a class=""jqgrid-link"" href=""https://www.dot.fm/"" target=""_blank"">https://www.dot.fm/</a>"
-today,143,104520,2013-11-13,today,whois.nic.today,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-ml,142,0,1993-09-29,ml,whois.dot.ml,"<a class=""jqgrid-link"" href=""http://www.dot.ml"" target=""_blank"">http://www.dot.ml</a>"
-qa,142,0,1996-06-12,qa,whois.registry.qa,"<a class=""jqgrid-link"" href=""http://domains.qa"" target=""_blank"">http://domains.qa</a>"
-is,140,0,1987-11-18,is,whois.isnic.is,"<a class=""jqgrid-link"" href=""https://www.isnic.is/"" target=""_blank"">https://www.isnic.is/</a>"
-guru,137,62527,2013-10-31,guru,whois.nic.guru,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-ee,135,0,1992-06-03,ee,whois.tld.ee,"<a class=""jqgrid-link"" href=""http://www.internet.ee"" target=""_blank"">http://www.internet.ee</a>"
-world,134,129930,2014-09-11,world,whois.nic.world,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-icu,132,639549,2015-03-06,icu,whois.nic.icu,"<a class=""jqgrid-link"" href=""http://nic.icu/"" target=""_blank"">http://nic.icu/</a>"
-ga,129,0,1994-12-12,ga,"",undefined
-agency,122,75980,2014-01-09,agency,whois.nic.agency,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-ba,121,0,1996-08-14,ba,whois.nic.ba,"<a class=""jqgrid-link"" href=""http://www.nic.ba"" target=""_blank"">http://www.nic.ba</a>"
-kg,118,0,1995-07-12,kg,whois.kg,"<a class=""jqgrid-link"" href=""http://www.domain.kg/"" target=""_blank"">http://www.domain.kg/</a>"
-academy,116,44963,2013-12-12,academy,whois.nic.academy,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-digital,113,93468,2014-04-17,digital,whois.nic.digital,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-cf,109,0,1996-04-24,cf,whois.dot.cf,"<a class=""jqgrid-link"" href=""http://www.dot.cf"" target=""_blank"">http://www.dot.cf</a>"
-ve,109,0,1991-03-07,ve,whois.nic.ve,"<a class=""jqgrid-link"" href=""https://nic.ve/"" target=""_blank"">https://nic.ve/</a>"
-xxx,107,91645,2011-04-15,xxx,whois.registrar.adult,"<a class=""jqgrid-link"" href=""http://www.icmregistry.com/"" target=""_blank"">http://www.icmregistry.com/</a>"
-host,104,42698,2014-05-22,host,whois.nic.host,"<a class=""jqgrid-link"" href=""http://radixregistry.com/"" target=""_blank"">http://radixregistry.com/</a>"
-kw,101,0,1992-10-26,kw,whois.nic.kw,"<a class=""jqgrid-link"" href=""http://www.nic.kw"" target=""_blank"">http://www.nic.kw</a>"
-video,93,22759,2014-12-17,video,whois.nic.video,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-click,88,56372,2014-08-15,click,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-ly,88,0,1997-04-23,ly,whois.nic.ly,"<a class=""jqgrid-link"" href=""http://www.nic.ly/"" target=""_blank"">http://www.nic.ly/</a>"
-design,86,121260,2014-12-18,design,whois.nic.design,"<a class=""jqgrid-link"" href=""https://toplevel.design"" target=""_blank"">https://toplevel.design</a>"
-im,86,0,1996-09-11,im,whois.nic.im,"<a class=""jqgrid-link"" href=""http://www.nic.im"" target=""_blank"">http://www.nic.im</a>"
-name,85,0,2001-08-17,name,whois.nic.name,"<a class=""jqgrid-link"" href=""http://www.nic.name"" target=""_blank"">http://www.nic.name</a>"
-la,85,0,1996-05-14,la,whois.nic.la,"<a class=""jqgrid-link"" href=""http://www.la"" target=""_blank"">http://www.la</a>"
-bo,83,0,1991-02-26,bo,whois.nic.bo,"<a class=""jqgrid-link"" href=""http://www.nic.bo"" target=""_blank"">http://www.nic.bo</a>"
-best,82,75484,2014-02-20,best,whois.nic.best,"<a class=""jqgrid-link"" href=""https://www.go.best"" target=""_blank"">https://www.go.best</a>"
-market,82,19344,2014-05-22,market,whois.nic.market,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-studio,79,76840,2015-06-25,studio,whois.nic.studio,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-win,78,69186,2015-02-05,win,whois.nic.win,"<a class=""jqgrid-link"" href=""http://nic.win"" target=""_blank"">http://nic.win</a>"
-om,78,0,1996-04-11,om,whois.registry.om,"<a class=""jqgrid-link"" href=""http://www.registry.om/om/en/?page_id=197"" target=""_blank"">http://www.registry.om/om/en/?page_id=197</a>"
-vc,78,0,1991-09-03,vc,whois2.afilias-grs.net,undefined
-travel,77,21460,2005-07-27,travel,whois.nic.travel,"<a class=""jqgrid-link"" href=""http://www.travel.travel/"" target=""_blank"">http://www.travel.travel/</a>"
-global,76,47114,2014-05-29,global,whois.nic.global,"<a class=""jqgrid-link"" href=""http://nic.global"" target=""_blank"">http://nic.global</a>"
-group,75,86394,2015-07-30,group,whois.nic.group,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-center,75,40072,2013-12-12,center,whois.nic.center,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-page,74,116318,2015-02-05,page,whois.nic.google,"<a class=""jqgrid-link"" href=""https://www.registry.google"" target=""_blank"">https://www.registry.google</a>"
-aero,73,0,2001-12-21,aero,whois.aero,"<a class=""jqgrid-link"" href=""http://www.information.aero"" target=""_blank"">http://www.information.aero</a>"
-plus,73,26025,2015-03-12,plus,whois.nic.plus,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-iq,72,0,1997-05-09,iq,whois.cmc.iq,"<a class=""jqgrid-link"" href=""https://registrar.cmc.iq"" target=""_blank"">https://registrar.cmc.iq</a>"
-af,70,0,1997-10-16,af,whois.nic.af,"<a class=""jqgrid-link"" href=""http://www.nic.af"" target=""_blank"">http://www.nic.af</a>"
-wiki,69,22081,2014-02-06,wiki,whois.nic.wiki,"<a class=""jqgrid-link"" href=""http://nic.wiki"" target=""_blank"">http://nic.wiki</a>"
-tools,69,16314,2014-01-16,tools,whois.nic.tools,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-cash,68,17155,2014-04-17,cash,whois.nic.cash,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-exchange,67,14381,2014-04-17,exchange,whois.nic.exchange,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-games,67,30117,2016-05-24,games,whois.nic.games,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-cyou,66,95717,2015-03-19,cyou,whois.nic.cyou,"<a class=""jqgrid-link"" href=""http://cy.changyou.com"" target=""_blank"">http://cy.changyou.com</a>"
-sh,64,0,1997-09-23,sh,whois.nic.sh,"<a class=""jqgrid-link"" href=""http://www.nic.sh/"" target=""_blank"">http://www.nic.sh/</a>"
-city,64,29554,2014-07-03,city,whois.nic.city,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-art,63,111367,2016-06-09,art,whois.nic.art,"<a class=""jqgrid-link"" href=""http://art.art/"" target=""_blank"">http://art.art/</a>"
-si,62,0,1992-04-01,si,whois.register.si,"<a class=""jqgrid-link"" href=""http://www.registry.si/"" target=""_blank"">http://www.registry.si/</a>"
-stream,62,18324,2016-02-26,stream,whois.nic.stream,"<a class=""jqgrid-link"" href=""http://nic.stream"" target=""_blank"">http://nic.stream</a>"
-cam,62,52865,2016-06-09,cam,whois.nic.cam,"<a class=""jqgrid-link"" href=""https://nic.cam/"" target=""_blank"">https://nic.cam/</a>"
-li,62,0,1993-02-26,li,whois.nic.li,"<a class=""jqgrid-link"" href=""https://www.nic.li"" target=""_blank"">https://www.nic.li</a>"
-cr,60,0,1990-09-10,cr,whois.nic.cr,"<a class=""jqgrid-link"" href=""http://www.nic.cr/"" target=""_blank"">http://www.nic.cr/</a>"
-school,55,20941,2015-02-13,school,whois.nic.school,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-money,55,15090,2014-11-20,money,whois.nic.money,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-cy,55,0,1994-07-26,cy,"","<a class=""jqgrid-link"" href=""http://www.nic.cy"" target=""_blank"">http://www.nic.cy</a>"
-download,55,8136,2015-02-05,download,whois.nic.download,"<a class=""jqgrid-link"" href=""http://nic.download"" target=""_blank"">http://nic.download</a>"
-bz,55,0,1991-09-03,bz,"","<a class=""jqgrid-link"" href=""http://www.belizenic.bz"" target=""_blank"">http://www.belizenic.bz</a>"
-press,55,26641,2014-05-22,press,whois.nic.press,"<a class=""jqgrid-link"" href=""http://radixregistry.com/"" target=""_blank"">http://radixregistry.com/</a>"
-tz,55,0,1995-07-14,tz,whois.tznic.or.tz,"<a class=""jqgrid-link"" href=""https://karibu.tz/"" target=""_blank"">https://karibu.tz/</a>"
-rocks,55,80310,2014-01-16,rocks,whois.nic.rocks,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-nu,54,0,1997-06-20,nu,whois.iis.nu,"<a class=""jqgrid-link"" href=""https://www.internetstiftelsen.se"" target=""_blank"">https://www.internetstiftelsen.se</a>"
-ltd,54,111031,2015-08-06,ltd,whois.nic.ltd,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-zone,53,31977,2014-01-09,zone,whois.nic.zone,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-lb,52,0,1993-08-25,lb,"","<a class=""jqgrid-link"" href=""http://www.isoc.org.lb/lbdr"" target=""_blank"">http://www.isoc.org.lb/lbdr</a>"
-cat,52,110952,2005-12-19,cat,whois.nic.cat,"<a class=""jqgrid-link"" href=""http://www.domini.cat"" target=""_blank"">http://www.domini.cat</a>"
-gq,51,0,1997-07-10,gq,whois.dominio.gq,"<a class=""jqgrid-link"" href=""http://www.dominio.gq"" target=""_blank"">http://www.dominio.gq</a>"
-ninja,51,33154,2013-12-19,ninja,whois.nic.ninja,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-bet,51,23361,2015-07-16,bet,whois.afilias.net,"<a class=""jqgrid-link"" href=""http://afilias.info/contact-us"" target=""_blank"">http://afilias.info/contact-us</a>"
-team,51,34675,2015-04-09,team,whois.nic.team,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-expert,50,32905,2014-01-16,expert,whois.nic.expert,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-gt,49,0,1992-08-14,gt,"","<a class=""jqgrid-link"" href=""http://www.gt"" target=""_blank"">http://www.gt</a>"
-bh,48,0,1994-02-01,bh,whois.nic.bh,undefined
-company,47,73708,2013-12-12,company,whois.nic.company,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-so,47,0,1997-08-28,so,whois.nic.so,"<a class=""jqgrid-link"" href=""http://www.nic.so/"" target=""_blank"">http://www.nic.so/</a>"
-tj,47,0,1997-12-11,tj,"","<a class=""jqgrid-link"" href=""http://www.nic.tj"" target=""_blank"">http://www.nic.tj</a>"
-ug,47,0,1995-03-08,ug,whois.co.ug,"<a class=""jqgrid-link"" href=""http://www.registry.co.ug"" target=""_blank"">http://www.registry.co.ug</a>"
-ac,46,0,1997-12-19,ac,whois.nic.ac,"<a class=""jqgrid-link"" href=""http://www.nic.ac/"" target=""_blank"">http://www.nic.ac/</a>"
-goog,45,175,2015-01-08,goog,whois.nic.google,"<a class=""jqgrid-link"" href=""https://www.registry.google"" target=""_blank"">https://www.registry.google</a>"
-trade,45,19528,2014-03-06,trade,whois.nic.trade,"<a class=""jqgrid-link"" href=""http://nic.trade"" target=""_blank"">http://nic.trade</a>"
-py,45,0,1991-09-09,py,"","<a class=""jqgrid-link"" href=""http://www.nic.py"" target=""_blank"">http://www.nic.py</a>"
-education,44,29181,2013-12-19,education,whois.nic.education,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-uno,44,26441,2013-11-13,uno,whois.nic.uno,"<a class=""jqgrid-link"" href=""http://www.radix.website"" target=""_blank"">http://www.radix.website</a>"
-gh,44,0,1995-01-19,gh,whois.nic.gh,"<a class=""jqgrid-link"" href=""http://www.nic.gh"" target=""_blank"">http://www.nic.gh</a>"
-chat,44,18881,2015-01-29,chat,whois.nic.chat,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-ci,44,0,1995-02-14,ci,whois.nic.ci,"<a class=""jqgrid-link"" href=""https://registry.nic.ci/login.jsp"" target=""_blank"">https://registry.nic.ci/login.jsp</a>"
-solutions,43,85382,2013-12-19,solutions,whois.nic.solutions,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-pa,43,0,1994-05-25,pa,"","<a class=""jqgrid-link"" href=""http://www.nic.pa/"" target=""_blank"">http://www.nic.pa/</a>"
-kh,43,0,1996-02-20,kh,"","<a class=""jqgrid-link"" href=""http://www.tc.com.kh"" target=""_blank"">http://www.tc.com.kh</a>"
-run,42,22650,2015-04-30,run,whois.nic.run,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-africa,42,28712,2017-02-11,africa,africa-whois.registry.net.za,"<a class=""jqgrid-link"" href=""http://nic.africa"" target=""_blank"">http://nic.africa</a>"
-buzz,41,251727,2013-12-12,buzz,whois.nic.buzz,"<a class=""jqgrid-link"" href=""http://www.buzznames.biz"" target=""_blank"">http://www.buzznames.biz</a>"
-watch,40,8705,2014-01-16,watch,whois.nic.watch,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-st,40,0,1997-11-07,st,whois.nic.st,"<a class=""jqgrid-link"" href=""http://www.nic.st"" target=""_blank"">http://www.nic.st</a>"
-guide,39,16106,2014-05-08,guide,whois.nic.guide,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-social,39,24062,2014-01-09,social,whois.nic.social,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-porn,39,10007,2014-11-26,porn,whois.registrar.adult,"<a class=""jqgrid-link"" href=""http://icmregistry.com"" target=""_blank"">http://icmregistry.com</a>"
-ag,38,0,1991-09-03,ag,whois.nic.ag,"<a class=""jqgrid-link"" href=""http://www.nic.ag"" target=""_blank"">http://www.nic.ag</a>"
-help,38,17029,2014-08-15,help,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-services,38,55373,2014-04-03,services,whois.nic.services,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-mu,38,0,1995-10-06,mu,whois.nic.mu,"<a class=""jqgrid-link"" href=""http://www.nic.mu/"" target=""_blank"">http://www.nic.mu/</a>"
-care,38,30421,2014-04-17,care,whois.nic.care,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-email,37,110706,2013-12-19,email,whois.nic.email,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-sy,37,0,1996-02-20,sy,whois.tld.sy,"<a class=""jqgrid-link"" href=""http://tld.sy"" target=""_blank"">http://tld.sy</a>"
-sn,36,0,1993-03-19,sn,whois.nic.sn,"<a class=""jqgrid-link"" href=""http://www.nic.sn"" target=""_blank"">http://www.nic.sn</a>"
-cm,35,0,1995-04-29,cm,whois.nic.cm,"<a class=""jqgrid-link"" href=""http://www.info.camnet.cm"" target=""_blank"">http://www.info.camnet.cm</a>"
-istanbul,35,7219,2015-05-29,istanbul,whois.afilias-srs.net,"<a class=""jqgrid-link"" href=""http://www.nic.istanbul"" target=""_blank"">http://www.nic.istanbul</a>"
-jobs,35,38105,2005-09-08,jobs,whois.nic.jobs,"<a class=""jqgrid-link"" href=""http://www.goto.jobs"" target=""_blank"">http://www.goto.jobs</a>"
-tips,35,25907,2013-11-13,tips,whois.nic.tips,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-wtf,34,22447,2014-04-17,wtf,whois.nic.wtf,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-int,34,0,1988-11-03,int,whois.iana.org,"<a class=""jqgrid-link"" href=""http://www.iana.org/domains/int"" target=""_blank"">http://www.iana.org/domains/int</a>"
-land,34,17462,2013-11-08,land,whois.nic.land,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-capital,34,20685,2014-04-03,capital,whois.nic.capital,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-mt,33,0,1992-12-02,mt,"","<a class=""jqgrid-link"" href=""https://www.nic.org.mt/"" target=""_blank"">https://www.nic.org.mt/</a>"
-pub,33,21761,2014-02-20,pub,whois.nic.pub,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-love,33,34828,2015-03-25,love,whois.nic.love,"<a class=""jqgrid-link"" href=""http://get.love"" target=""_blank"">http://get.love</a>"
-hn,32,0,1993-04-16,hn,whois.nic.hn,"<a class=""jqgrid-link"" href=""http://www.nic.hn"" target=""_blank"">http://www.nic.hn</a>"
-cx,32,0,1997-04-24,cx,whois.nic.cx,"<a class=""jqgrid-link"" href=""http://cxda.org.cx"" target=""_blank"">http://cxda.org.cx</a>"
-re,32,0,1997-04-07,re,whois.nic.re,"<a class=""jqgrid-link"" href=""http://www.nic.re/"" target=""_blank"">http://www.nic.re/</a>"
-zw,32,0,1991-11-06,zw,"",undefined
-lol,31,13826,2015-04-23,lol,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-lu,31,0,1995-01-27,lu,whois.dns.lu,"<a class=""jqgrid-link"" href=""http://www.dns.lu"" target=""_blank"">http://www.dns.lu</a>"
-tc,30,0,1997-01-27,tc,whois.nic.tc,"<a class=""jqgrid-link"" href=""HTTPS://WWW.NIC.TC"" target=""_blank"">HTTPS://WWW.NIC.TC</a>"
-casa,30,50205,2014-08-18,casa,whois.nic.casa,"<a class=""jqgrid-link"" href=""http://mm-registry.com/"" target=""_blank"">http://mm-registry.com/</a>"
-cool,29,29129,2014-01-16,cool,whois.nic.cool,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-codes,28,16681,2013-12-19,codes,whois.nic.codes,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-community,28,17985,2014-01-23,community,whois.nic.community,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-works,28,24759,2014-01-16,works,whois.nic.works,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-support,28,28875,2013-12-12,support,whois.nic.support,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-monster,27,126884,2015-12-23,monster,whois.nic.monster,"<a class=""jqgrid-link"" href=""https://nic.monster/"" target=""_blank"">https://nic.monster/</a>"
-tube,27,3497,2015-12-23,tube,whois.nic.tube,"<a class=""jqgrid-link"" href=""http://tubetld.com"" target=""_blank"">http://tubetld.com</a>"
-red,27,20210,2014-01-16,red,whois.afilias.net,"<a class=""jqgrid-link"" href=""http://afilias.info/contact-us"" target=""_blank"">http://afilias.info/contact-us</a>"
-style,26,12066,2015-01-29,style,whois.nic.style,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-bio,26,19534,2014-05-15,bio,whois.afilias.net,"<a class=""jqgrid-link"" href=""http://afilias.info/contact-us"" target=""_blank"">http://afilias.info/contact-us</a>"
-marketing,26,26026,2014-01-09,marketing,whois.nic.marketing,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-rw,25,0,1996-10-21,rw,"","<a class=""jqgrid-link"" href=""https://registry.ricta.org.rw"" target=""_blank"">https://registry.ricta.org.rw</a>"
-mil,25,0,1985-01-01,mil,"",undefined
-moscow,25,16364,2014-04-17,moscow,whois.nic.moscow,"<a class=""jqgrid-link"" href=""http://www.faitid.org"" target=""_blank"">http://www.faitid.org</a>"
-software,25,17757,2014-05-22,software,whois.nic.software,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-ink,25,41033,2014-02-27,ink,whois.nic.ink,"<a class=""jqgrid-link"" href=""http://toplevel.design/ink/"" target=""_blank"">http://toplevel.design/ink/</a>"
-onl,25,7418,2013-12-12,onl,whois.afilias-srs.net,"<a class=""jqgrid-link"" href=""http://www.i-registry.com"" target=""_blank"">http://www.i-registry.com</a>"
-bid,25,18348,2014-02-13,bid,whois.nic.bid,"<a class=""jqgrid-link"" href=""http://nic.bid"" target=""_blank"">http://nic.bid</a>"
-cafe,25,18296,2015-03-12,cafe,whois.nic.cafe,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-men,24,12250,2015-05-08,men,whois.nic.men,"<a class=""jqgrid-link"" href=""http://nic.men"" target=""_blank"">http://nic.men</a>"
-cu,24,0,1992-06-03,cu,"","<a class=""jqgrid-link"" href=""http://www.nic.cu"" target=""_blank"">http://www.nic.cu</a>"
-mv,24,0,1996-09-25,mv,"",undefined
-house,24,24133,2013-12-19,house,whois.nic.house,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-ovh,24,61090,2014-05-01,ovh,whois-ovh.nic.fr,"<a class=""jqgrid-link"" href=""http://www.ovh.com"" target=""_blank"">http://www.ovh.com</a>"
-farm,24,23453,2013-12-19,farm,whois.nic.farm,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-tm,24,0,1997-05-30,tm,whois.nic.tm,"<a class=""jqgrid-link"" href=""http://www.nic.tm/"" target=""_blank"">http://www.nic.tm/</a>"
-tokyo,23,159086,2014-01-16,tokyo,whois.nic.tokyo,"<a class=""jqgrid-link"" href=""http://www.gmo-registry.com/en/"" target=""_blank"">http://www.gmo-registry.com/en/</a>"
-clinic,22,10190,2014-04-11,clinic,whois.nic.clinic,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-show,22,17374,2015-04-09,show,whois.nic.show,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-бел,22,0,2014-09-29,xn--90ais,whois.cctld.by,"<a class=""jqgrid-link"" href=""https://cctld.by"" target=""_blank"">https://cctld.by</a>"
-bank,22,2442,2014-11-26,bank,whois.nic.bank,"<a class=""jqgrid-link"" href=""https://www.ftld.com/"" target=""_blank"">https://www.ftld.com/</a>"
-nyc,22,63318,2014-03-13,nyc,whois.nic.nyc,"<a class=""jqgrid-link"" href=""http://www.mydotnyc.com"" target=""_blank"">http://www.mydotnyc.com</a>"
-sv,22,0,1994-11-04,sv,"","<a class=""jqgrid-link"" href=""http://www.svnet.sv"" target=""_blank"">http://www.svnet.sv</a>"
-game,22,2367,2015-07-02,game,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-coffee,21,22606,2013-12-19,coffee,whois.nic.coffee,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-sex,21,7590,2015-04-09,sex,whois.registrar.adult,"<a class=""jqgrid-link"" href=""http://icmregistry.com"" target=""_blank"">http://icmregistry.com</a>"
-systems,21,33353,2013-12-12,systems,whois.nic.systems,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-technology,21,33588,2013-11-08,technology,whois.nic.technology,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-tel,21,54475,2007-03-01,tel,whois.nic.tel,"<a class=""jqgrid-link"" href=""http://www.nic.tel"" target=""_blank"">http://www.nic.tel</a>"
-coop,20,7997,2001-12-15,coop,whois.nic.coop,"<a class=""jqgrid-link"" href=""http://www.nic.coop"" target=""_blank"">http://www.nic.coop</a>"
-earth,20,28629,2015-04-16,earth,whois.nic.earth,"<a class=""jqgrid-link"" href=""https://domain.earth/"" target=""_blank"">https://domain.earth/</a>"
-surf,20,10747,2014-03-13,surf,whois.nic.surf,"<a class=""jqgrid-link"" href=""http://mm-registry.com"" target=""_blank"">http://mm-registry.com</a>"
-party,20,19599,2014-10-23,party,whois.nic.party,"<a class=""jqgrid-link"" href=""http://nic.party"" target=""_blank"">http://nic.party</a>"
-fit,20,71262,2014-12-18,fit,whois.nic.fit,"<a class=""jqgrid-link"" href=""http://mm-registry.com"" target=""_blank"">http://mm-registry.com</a>"
-church,20,27065,2014-05-08,church,whois.nic.church,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-mg,19,0,1995-07-25,mg,whois.nic.mg,"<a class=""jqgrid-link"" href=""http://www.nic.mg"" target=""_blank"">http://www.nic.mg</a>"
-sc,19,0,1997-05-09,sc,whois2.afilias-grs.net,"<a class=""jqgrid-link"" href=""http://www.nic.sc"" target=""_blank"">http://www.nic.sc</a>"
-moe,19,10196,2014-03-13,moe,whois.nic.moe,"<a class=""jqgrid-link"" href=""https://get.moe/"" target=""_blank"">https://get.moe/</a>"
-health,19,24005,2015-09-17,health,whois.nic.health,"<a class=""jqgrid-link"" href=""http://www.dothealth.co"" target=""_blank"">http://www.dothealth.co</a>"
-ms,19,0,1997-03-06,ms,whois.nic.ms,"<a class=""jqgrid-link"" href=""http://www.nic.ms"" target=""_blank"">http://www.nic.ms</a>"
-deals,19,9777,2014-07-03,deals,whois.nic.deals,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-tl,19,0,2005-03-23,tl,whois.nic.tl,"<a class=""jqgrid-link"" href=""http://www.nic.tl"" target=""_blank"">http://www.nic.tl</a>"
-report,19,8719,2014-01-30,report,whois.nic.report,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-vision,19,9567,2014-02-06,vision,whois.nic.vision,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-mr,18,0,1996-04-24,mr,whois.nic.mr,"<a class=""jqgrid-link"" href=""http://www.nic.mr"" target=""_blank"">http://www.nic.mr</a>"
-jm,18,0,1991-09-24,jm,"",undefined
-express,18,9027,2015-03-12,express,whois.nic.express,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-fund,18,18030,2014-04-17,fund,whois.nic.fund,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-london,18,47211,2014-02-13,london,whois.nic.london,"<a class=""jqgrid-link"" href=""http://dotlondondomains.london/"" target=""_blank"">http://dotlondondomains.london/</a>"
-google,17,87,2014-09-04,google,whois.nic.google,"<a class=""jqgrid-link"" href=""https://www.registry.google"" target=""_blank"">https://www.registry.google</a>"
-онлайн,17,2640,2013-10-21,xn--80asehdb,whois.nic.xn--80asehdb,"<a class=""jqgrid-link"" href=""http://corenic.org"" target=""_blank"">http://corenic.org</a>"
-ni,17,0,1989-10-13,ni,"","<a class=""jqgrid-link"" href=""http://www.nic.ni"" target=""_blank"">http://www.nic.ni</a>"
-bar,17,224393,2014-02-13,bar,whois.nic.bar,"<a class=""jqgrid-link"" href=""http://nic.bar"" target=""_blank"">http://nic.bar</a>"
-ooo,17,9691,2014-07-31,ooo,whois.nic.ooo,"<a class=""jqgrid-link"" href=""http://www.infibeam.com"" target=""_blank"">http://www.infibeam.com</a>"
-sx,17,0,2010-12-20,sx,whois.sx,"<a class=""jqgrid-link"" href=""http://registry.sx"" target=""_blank"">http://registry.sx</a>"
-pics,17,6417,2014-01-09,pics,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-pm,17,0,1997-08-20,pm,whois.nic.pm,"<a class=""jqgrid-link"" href=""http://www.nic.pm/"" target=""_blank"">http://www.nic.pm/</a>"
-cards,17,8539,2014-02-06,cards,whois.nic.cards,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-kim,16,8581,2013-12-19,kim,whois.afilias.net,"<a class=""jqgrid-link"" href=""http://afilias.info"" target=""_blank"">http://afilias.info</a>"
-bn,16,0,1994-06-03,bn,whois.bnnic.bn,"<a class=""jqgrid-link"" href=""http://www.bnnic.bn"" target=""_blank"">http://www.bnnic.bn</a>"
-pet,16,11689,2015-07-16,pet,whois.afilias.net,"<a class=""jqgrid-link"" href=""http://afilias.info/contact-us"" target=""_blank"">http://afilias.info/contact-us</a>"
-fj,16,0,1992-06-03,fj,"","<a class=""jqgrid-link"" href=""http://domains.fj/"" target=""_blank"">http://domains.fj/</a>"
-build,16,4310,2014-01-09,build,whois.nic.build,"<a class=""jqgrid-link"" href=""http://www.dotbuild.co"" target=""_blank"">http://www.dotbuild.co</a>"
-casino,16,8371,2015-02-13,casino,whois.nic.casino,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-audio,15,4632,2014-05-08,audio,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-dog,15,14450,2015-04-16,dog,whois.nic.dog,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-et,15,0,1995-10-15,et,"","<a class=""jqgrid-link"" href=""http://www.ethiotelecom.et"" target=""_blank"">http://www.ethiotelecom.et</a>"
-partners,15,10650,2014-01-30,partners,whois.nic.partners,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-krd,15,603,2014-07-10,krd,whois.nic.krd,"<a class=""jqgrid-link"" href=""https://dot.krd"" target=""_blank"">https://dot.krd</a>"
-рус,15,32927,2014-07-03,xn--p1acf,whois.nic.xn--p1acf,"<a class=""jqgrid-link"" href=""http://rusnames.ru/"" target=""_blank"">http://rusnames.ru/</a>"
-canon,15,60,2015-01-29,canon,whois.nic.canon,"<a class=""jqgrid-link"" href=""http://nic.canon"" target=""_blank"">http://nic.canon</a>"
-cd,15,0,1997-08-20,cd,whois.nic.cd,"<a class=""jqgrid-link"" href=""http://www.nic.cd/"" target=""_blank"">http://www.nic.cd/</a>"
-movie,14,3538,2015-03-12,movie,whois.nic.movie,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-mz,14,0,1992-09-04,mz,whois.nic.mz,undefined
-укр,14,0,2011-03-01,xn--j1amh,whois.dotukr.com,"<a class=""jqgrid-link"" href=""https://namestore.u-registry.com"" target=""_blank"">https://namestore.u-registry.com</a>"
-careers,14,9381,2013-12-12,careers,whois.nic.careers,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-zm,14,0,1994-03-25,zm,whois.zicta.zm,"<a class=""jqgrid-link"" href=""https://registry.zicta.zm"" target=""_blank"">https://registry.zicta.zm</a>"
-ventures,14,16929,2013-10-31,ventures,whois.nic.ventures,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-review,14,11669,2015-02-05,review,whois.nic.review,"<a class=""jqgrid-link"" href=""http://nic.review"" target=""_blank"">http://nic.review</a>"
-menu,13,6614,2013-11-13,menu,whois.nic.menu,"<a class=""jqgrid-link"" href=""http://www.nic.menu"" target=""_blank"">http://www.nic.menu</a>"
-gs,13,0,1997-07-31,gs,whois.nic.gs,"<a class=""jqgrid-link"" href=""http://secure.nic.gs"" target=""_blank"">http://secure.nic.gs</a>"
-ist,13,8192,2015-05-29,ist,whois.afilias-srs.net,"<a class=""jqgrid-link"" href=""http://www.nic.istanbul"" target=""_blank"">http://www.nic.istanbul</a>"
-business,13,27981,2014-08-18,business,whois.nic.business,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-training,13,22049,2013-12-19,training,whois.nic.training,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-fyi,13,25932,2015-05-14,fyi,whois.nic.fyi,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-gallery,13,19021,2013-11-08,gallery,whois.nic.gallery,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-gratis,12,3961,2014-04-17,gratis,whois.nic.gratis,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-gy,12,0,1994-09-13,gy,whois.registry.gy,"<a class=""jqgrid-link"" href=""https://registry.gy/"" target=""_blank"">https://registry.gy/</a>"
-sd,12,0,1997-03-06,sd,"","<a class=""jqgrid-link"" href=""http://www.isoc.sd"" target=""_blank"">http://www.isoc.sd</a>"
-directory,12,17977,2013-11-13,directory,whois.nic.directory,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-law,12,16743,2015-06-18,law,whois.nic.law,"<a class=""jqgrid-link"" href=""http://mm-registry.com"" target=""_blank"">http://mm-registry.com</a>"
-foundation,12,17938,2014-02-06,foundation,whois.nic.foundation,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-tt,12,0,1991-09-03,tt,"","<a class=""jqgrid-link"" href=""http://www.nic.tt"" target=""_blank"">http://www.nic.tt</a>"
-university,12,7088,2014-04-03,university,whois.nic.university,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-gl,12,0,1994-04-08,gl,whois.nic.gl,"<a class=""jqgrid-link"" href=""http://www.nic.gl/"" target=""_blank"">http://www.nic.gl/</a>"
-mo,11,0,1992-09-17,mo,whois.monic.mo,"<a class=""jqgrid-link"" href=""https://www.monic.mo"" target=""_blank"">https://www.monic.mo</a>"
-energy,11,15016,2014-10-16,energy,whois.nic.energy,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-bike,11,16069,2013-11-08,bike,whois.nic.bike,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-taipei,11,2031,2014-09-25,taipei,whois.nic.taipei,"<a class=""jqgrid-link"" href=""http://www.nictaipei.net"" target=""_blank"">http://www.nictaipei.net</a>"
-lc,11,0,1991-09-03,lc,whois.nic.lc,"<a class=""jqgrid-link"" href=""http://www.nic.lc"" target=""_blank"">http://www.nic.lc</a>"
-pr,11,0,1989-08-27,pr,whois.afilias-srs.net,"<a class=""jqgrid-link"" href=""http://www.nic.pr"" target=""_blank"">http://www.nic.pr</a>"
-promo,11,5886,2015-12-18,promo,whois.afilias.net,"<a class=""jqgrid-link"" href=""http://www.afilias.info/contact-us"" target=""_blank"">http://www.afilias.info/contact-us</a>"
-rest,11,30588,2014-03-06,rest,whois.nic.rest,"<a class=""jqgrid-link"" href=""http://www.register.rest/"" target=""_blank"">http://www.register.rest/</a>"
-vin,11,6386,2015-07-23,vin,whois.nic.vin,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-graphics,10,6715,2013-11-08,graphics,whois.nic.graphics,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-hosting,10,3042,2014-08-15,hosting,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-na,10,0,1991-05-08,na,whois.na-nic.com.na,"<a class=""jqgrid-link"" href=""http://www.na-nic.com.na/"" target=""_blank"">http://www.na-nic.com.na/</a>"
-direct,10,12884,2014-05-22,direct,whois.nic.direct,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-eco,10,4070,2016-08-18,eco,whois.nic.eco,"<a class=""jqgrid-link"" href=""https://www.bigroom.eco"" target=""_blank"">https://www.bigroom.eco</a>"
-events,10,26108,2014-01-30,events,whois.nic.events,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-fashion,10,12196,2014-10-23,fashion,whois.nic.fashion,"<a class=""jqgrid-link"" href=""http://mm-registry.com"" target=""_blank"">http://mm-registry.com</a>"
-tf,10,0,1997-08-26,tf,whois.nic.tf,"<a class=""jqgrid-link"" href=""http://www.nic.tf/"" target=""_blank"">http://www.nic.tf/</a>"
-futbol,10,2260,2014-02-06,futbol,whois.nic.futbol,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-gd,10,0,1992-06-03,gd,whois.nic.gd,"<a class=""jqgrid-link"" href=""http://nic.gd"" target=""_blank"">http://nic.gd</a>"
-reviews,10,14310,2014-02-06,reviews,whois.nic.reviews,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-gold,10,12797,2015-03-12,gold,whois.nic.gold,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-sale,9,12046,2014-12-17,sale,whois.nic.sale,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-scot,9,12901,2014-06-05,scot,whois.nic.scot,"<a class=""jqgrid-link"" href=""https://dot.scot/"" target=""_blank"">https://dot.scot/</a>"
-ao,9,0,1995-11-15,ao,"","<a class=""jqgrid-link"" href=""http://www.dns.ao/"" target=""_blank"">http://www.dns.ao/</a>"
-delivery,9,9737,2014-10-16,delivery,whois.nic.delivery,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-domains,9,6643,2013-12-12,domains,whois.nic.domains,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-eus,9,12076,2014-03-06,eus,whois.nic.eus,"<a class=""jqgrid-link"" href=""https://www.domeinuak.eus"" target=""_blank"">https://www.domeinuak.eus</a>"
-film,9,5168,2015-02-27,film,whois.nic.film,"<a class=""jqgrid-link"" href=""http://nic.film"" target=""_blank"">http://nic.film</a>"
-bt,9,0,1997-07-16,bt,"","<a class=""jqgrid-link"" href=""http://www.nic.bt"" target=""_blank"">http://www.nic.bt</a>"
-legal,9,14842,2014-11-20,legal,whois.nic.legal,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-camp,9,7334,2013-12-12,camp,whois.nic.camp,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-mm,8,0,1997-02-04,mm,whois.registry.gov.mm,"<a class=""jqgrid-link"" href=""http://www.ptd.gov.mm/"" target=""_blank"">http://www.ptd.gov.mm/</a>"
-sbi,8,85,2016-03-24,sbi,whois.nic.sbi,"<a class=""jqgrid-link"" href=""https://www.sbi.co.in"" target=""_blank"">https://www.sbi.co.in</a>"
-cricket,8,1287,2014-11-13,cricket,whois.nic.cricket,"<a class=""jqgrid-link"" href=""http://nic.cricket"" target=""_blank"">http://nic.cricket</a>"
-cv,8,0,1996-10-21,cv,"","<a class=""jqgrid-link"" href=""http://www.dns.cv/"" target=""_blank"">http://www.dns.cv/</a>"
-sexy,8,5851,2013-11-08,sexy,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-mw,8,0,1997-01-03,mw,whois.nic.mw,"<a class=""jqgrid-link"" href=""http://www.registrar.mw"" target=""_blank"">http://www.registrar.mw</a>"
-date,8,10230,2015-02-05,date,whois.nic.date,"<a class=""jqgrid-link"" href=""http://nic.date"" target=""_blank"">http://nic.date</a>"
-com,261079,153260052,1985-01-01,com,whois.verisign-grs.com,"<a class=""jqgrid-link"" href=""http://www.verisigninc.com"" target=""_blank"">http://www.verisigninc.com</a>"
-net,19480,13282076,1985-01-01,net,whois.verisign-grs.com,"<a class=""jqgrid-link"" href=""http://www.verisigninc.com"" target=""_blank"">http://www.verisigninc.com</a>"
-org,17243,10388953,1985-01-01,org,whois.pir.org,"<a class=""jqgrid-link"" href=""http://www.pir.org"" target=""_blank"">http://www.pir.org</a>"
-info,3198,3939430,2001-06-26,info,whois.afilias.net,"<a class=""jqgrid-link"" href=""http://www.nic.info"" target=""_blank"">http://www.nic.info</a>"
-xyz,2276,3025704,2014-02-06,xyz,whois.nic.xyz,"<a class=""jqgrid-link"" href=""https://nic.xyz"" target=""_blank"">https://nic.xyz</a>"
-online,1511,1787268,2015-03-06,online,whois.nic.online,"<a class=""jqgrid-link"" href=""http://www.radixregistry.com"" target=""_blank"">http://www.radixregistry.com</a>"
-biz,1025,1377529,2001-06-26,biz,whois.nic.biz,"<a class=""jqgrid-link"" href=""http://www.nic.biz"" target=""_blank"">http://www.nic.biz</a>"
-top,531,1093205,2014-07-24,top,whois.nic.top,"<a class=""jqgrid-link"" href=""http://www.nic.top"" target=""_blank"">http://www.nic.top</a>"
-site,974,1067958,2015-03-06,site,whois.nic.site,"<a class=""jqgrid-link"" href=""http://www.radixregistry.com"" target=""_blank"">http://www.radixregistry.com</a>"
-club,1002,1046714,2014-01-09,club,whois.nic.club,"<a class=""jqgrid-link"" href=""http://dotclub.com"" target=""_blank"">http://dotclub.com</a>"
-vip,229,806768,2015-07-30,vip,whois.nic.vip,"<a class=""jqgrid-link"" href=""http://mm-registry.com"" target=""_blank"">http://mm-registry.com</a>"
-shop,453,801328,2016-05-05,shop,whois.nic.shop,"<a class=""jqgrid-link"" href=""http://www.gmoregistry.com/en/"" target=""_blank"">http://www.gmoregistry.com/en/</a>"
-app,1131,713900,2015-06-25,app,whois.nic.google,"<a class=""jqgrid-link"" href=""https://www.registry.google"" target=""_blank"">https://www.registry.google</a>"
-icu,132,639549,2015-03-06,icu,whois.nic.icu,"<a class=""jqgrid-link"" href=""http://nic.icu/"" target=""_blank"">http://nic.icu/</a>"
-work,149,557114,2014-08-18,work,whois.nic.work,"<a class=""jqgrid-link"" href=""http://mm-registry.com/"" target=""_blank"">http://mm-registry.com/</a>"
-store,381,537388,2016-02-11,store,whois.nic.store,"<a class=""jqgrid-link"" href=""http://radix.website/"" target=""_blank"">http://radix.website/</a>"
-live,733,443275,2015-06-25,live,whois.nic.live,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-tech,294,329366,2015-03-12,tech,whois.nic.tech,"<a class=""jqgrid-link"" href=""http://www.radixregistry.com"" target=""_blank"">http://www.radixregistry.com</a>"
-mobi,195,322646,2005-10-17,mobi,whois.nic.mobi,"<a class=""jqgrid-link"" href=""http://www.mtld.mobi"" target=""_blank"">http://www.mtld.mobi</a>"
-space,267,314440,2014-05-22,space,whois.nic.space,"<a class=""jqgrid-link"" href=""http://radixregistry.com/"" target=""_blank"">http://radixregistry.com/</a>"
-website,184,287027,2014-05-22,website,whois.nic.website,"<a class=""jqgrid-link"" href=""http://radixregistry.com/"" target=""_blank"">http://radixregistry.com/</a>"
-pro,1022,268283,2002-05-08,pro,whois.afilias.net,"<a class=""jqgrid-link"" href=""http://www.registry.pro/"" target=""_blank"">http://www.registry.pro/</a>"
-buzz,41,251727,2013-12-12,buzz,whois.nic.buzz,"<a class=""jqgrid-link"" href=""http://www.buzznames.biz"" target=""_blank"">http://www.buzznames.biz</a>"
-dev,307,250140,2014-11-20,dev,whois.nic.google,"<a class=""jqgrid-link"" href=""https://www.registry.google"" target=""_blank"">https://www.registry.google</a>"
-bar,17,224393,2014-02-13,bar,whois.nic.bar,"<a class=""jqgrid-link"" href=""http://nic.bar"" target=""_blank"">http://nic.bar</a>"
-life,234,217529,2014-05-08,life,whois.nic.life,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-cloud,203,210383,2015-06-18,cloud,whois.nic.cloud,"<a class=""jqgrid-link"" href=""https://www.getdotcloud.com"" target=""_blank"">https://www.getdotcloud.com</a>"
-fun,257,199010,2016-11-30,fun,whois.nic.fun,"<a class=""jqgrid-link"" href=""http://www.radixregistry.com"" target=""_blank"">http://www.radixregistry.com</a>"
-asia,221,196532,2007-05-02,asia,whois.nic.asia,"<a class=""jqgrid-link"" href=""http://www.registry.asia"" target=""_blank"">http://www.registry.asia</a>"
-blog,168,188142,2016-05-12,blog,whois.nic.blog,"<a class=""jqgrid-link"" href=""http://nic.blog"" target=""_blank"">http://nic.blog</a>"
-tokyo,23,159086,2014-01-16,tokyo,whois.nic.tokyo,"<a class=""jqgrid-link"" href=""http://www.gmo-registry.com/en/"" target=""_blank"">http://www.gmo-registry.com/en/</a>"
-world,134,129930,2014-09-11,world,whois.nic.world,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-monster,27,126884,2015-12-23,monster,whois.nic.monster,"<a class=""jqgrid-link"" href=""https://nic.monster/"" target=""_blank"">https://nic.monster/</a>"
-design,86,121260,2014-12-18,design,whois.nic.design,"<a class=""jqgrid-link"" href=""https://toplevel.design"" target=""_blank"">https://toplevel.design</a>"
-link,262,120696,2014-01-09,link,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-page,74,116318,2015-02-05,page,whois.nic.google,"<a class=""jqgrid-link"" href=""https://www.registry.google"" target=""_blank"">https://www.registry.google</a>"
-art,63,111367,2016-06-09,art,whois.nic.art,"<a class=""jqgrid-link"" href=""http://art.art/"" target=""_blank"">http://art.art/</a>"
-ltd,54,111031,2015-08-06,ltd,whois.nic.ltd,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-cat,52,110952,2005-12-19,cat,whois.nic.cat,"<a class=""jqgrid-link"" href=""http://www.domini.cat"" target=""_blank"">http://www.domini.cat</a>"
-email,37,110706,2013-12-19,email,whois.nic.email,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-today,143,104520,2013-11-13,today,whois.nic.today,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-cyou,66,95717,2015-03-19,cyou,whois.nic.cyou,"<a class=""jqgrid-link"" href=""http://cy.changyou.com"" target=""_blank"">http://cy.changyou.com</a>"
-digital,113,93468,2014-04-17,digital,whois.nic.digital,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-one,199,91953,2014-12-18,one,whois.nic.one,"<a class=""jqgrid-link"" href=""http://www.one.com/"" target=""_blank"">http://www.one.com/</a>"
-xxx,107,91645,2011-04-15,xxx,whois.registrar.adult,"<a class=""jqgrid-link"" href=""http://www.icmregistry.com/"" target=""_blank"">http://www.icmregistry.com/</a>"
-group,75,86394,2015-07-30,group,whois.nic.group,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-solutions,43,85382,2013-12-19,solutions,whois.nic.solutions,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-rocks,55,80310,2014-01-16,rocks,whois.nic.rocks,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-studio,79,76840,2015-06-25,studio,whois.nic.studio,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-agency,122,75980,2014-01-09,agency,whois.nic.agency,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-best,82,75484,2014-02-20,best,whois.nic.best,"<a class=""jqgrid-link"" href=""https://www.go.best"" target=""_blank"">https://www.go.best</a>"
-company,47,73708,2013-12-12,company,whois.nic.company,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-news,378,71334,2015-03-12,news,whois.nic.news,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-fit,20,71262,2014-12-18,fit,whois.nic.fit,"<a class=""jqgrid-link"" href=""http://mm-registry.com"" target=""_blank"">http://mm-registry.com</a>"
-win,78,69186,2015-02-05,win,whois.nic.win,"<a class=""jqgrid-link"" href=""http://nic.win"" target=""_blank"">http://nic.win</a>"
-nyc,22,63318,2014-03-13,nyc,whois.nic.nyc,"<a class=""jqgrid-link"" href=""http://www.mydotnyc.com"" target=""_blank"">http://www.mydotnyc.com</a>"
-guru,137,62527,2013-10-31,guru,whois.nic.guru,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-wang,2,62519,2013-12-12,wang,whois.gtld.knet.cn,"<a class=""jqgrid-link"" href=""http://www.zodiacregistry.com"" target=""_blank"">http://www.zodiacregistry.com</a>"
-ovh,24,61090,2014-05-01,ovh,whois-ovh.nic.fr,"<a class=""jqgrid-link"" href=""http://www.ovh.com"" target=""_blank"">http://www.ovh.com</a>"
-network,185,61042,2014-08-18,network,whois.nic.network,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-media,177,60011,2014-04-03,media,whois.nic.media,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-click,88,56372,2014-08-15,click,whois.uniregistry.net,"<a class=""jqgrid-link"" href=""http://uniregistry.link"" target=""_blank"">http://uniregistry.link</a>"
-services,38,55373,2014-04-03,services,whois.nic.services,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-tel,21,54475,2007-03-01,tel,whois.nic.tel,"<a class=""jqgrid-link"" href=""http://www.nic.tel"" target=""_blank"">http://www.nic.tel</a>"
-cam,62,52865,2016-06-09,cam,whois.nic.cam,"<a class=""jqgrid-link"" href=""https://nic.cam/"" target=""_blank"">https://nic.cam/</a>"
-casa,30,50205,2014-08-18,casa,whois.nic.casa,"<a class=""jqgrid-link"" href=""http://mm-registry.com/"" target=""_blank"">http://mm-registry.com/</a>"
-berlin,6,49113,2013-12-19,berlin,whois.nic.berlin,"<a class=""jqgrid-link"" href=""http://nic.berlin/"" target=""_blank"">http://nic.berlin/</a>"
-london,18,47211,2014-02-13,london,whois.nic.london,"<a class=""jqgrid-link"" href=""http://dotlondondomains.london/"" target=""_blank"">http://dotlondondomains.london/</a>"
-global,76,47114,2014-05-29,global,whois.nic.global,"<a class=""jqgrid-link"" href=""http://nic.global"" target=""_blank"">http://nic.global</a>"
-realtor,8,45394,2014-07-24,realtor,whois.nic.realtor,"<a class=""jqgrid-link"" href=""https://www.get.realtor"" target=""_blank"">https://www.get.realtor</a>"
-academy,116,44963,2013-12-12,academy,whois.nic.academy,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-photography,5,44091,2013-11-13,photography,whois.nic.photography,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-host,104,42698,2014-05-22,host,whois.nic.host,"<a class=""jqgrid-link"" href=""http://radixregistry.com/"" target=""_blank"">http://radixregistry.com/</a>"
-ink,25,41033,2014-02-27,ink,whois.nic.ink,"<a class=""jqgrid-link"" href=""http://toplevel.design/ink/"" target=""_blank"">http://toplevel.design/ink/</a>"
-center,75,40072,2013-12-12,center,whois.nic.center,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-jobs,35,38105,2005-09-08,jobs,whois.nic.jobs,"<a class=""jqgrid-link"" href=""http://www.goto.jobs"" target=""_blank"">http://www.goto.jobs</a>"
-love,33,34828,2015-03-25,love,whois.nic.love,"<a class=""jqgrid-link"" href=""http://get.love"" target=""_blank"">http://get.love</a>"
-team,51,34675,2015-04-09,team,whois.nic.team,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-technology,21,33588,2013-11-08,technology,whois.nic.technology,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-systems,21,33353,2013-12-12,systems,whois.nic.systems,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-ninja,51,33154,2013-12-19,ninja,whois.nic.ninja,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-рус,15,32927,2014-07-03,xn--p1acf,whois.nic.xn--p1acf,"<a class=""jqgrid-link"" href=""http://rusnames.ru/"" target=""_blank"">http://rusnames.ru/</a>"
-expert,50,32905,2014-01-16,expert,whois.nic.expert,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-公司,"",32329,2014-01-09,xn--55qx5d,whois.ngtld.cn,"<a class=""jqgrid-link"" href=""http://www.cnnic.cn"" target=""_blank"">http://www.cnnic.cn</a>"
-zone,53,31977,2014-01-09,zone,whois.nic.zone,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-consulting,6,31703,2014-01-30,consulting,whois.nic.consulting,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-bayern,1,30737,2014-03-13,bayern,whois.nic.bayern,"<a class=""jqgrid-link"" href=""http://mm-registry.com"" target=""_blank"">http://mm-registry.com</a>"
-rest,11,30588,2014-03-06,rest,whois.nic.rest,"<a class=""jqgrid-link"" href=""http://www.register.rest/"" target=""_blank"">http://www.register.rest/</a>"
-care,38,30421,2014-04-17,care,whois.nic.care,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-games,67,30117,2016-05-24,games,whois.nic.games,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-xin,2,29847,2015-02-19,xin,whois.nic.xin,"<a class=""jqgrid-link"" href=""http://www.dotxin.org"" target=""_blank"">http://www.dotxin.org</a>"
-city,64,29554,2014-07-03,city,whois.nic.city,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-education,44,29181,2013-12-19,education,whois.nic.education,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-cool,29,29129,2014-01-16,cool,whois.nic.cool,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-support,28,28875,2013-12-12,support,whois.nic.support,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-africa,42,28712,2017-02-11,africa,africa-whois.registry.net.za,"<a class=""jqgrid-link"" href=""http://nic.africa"" target=""_blank"">http://nic.africa</a>"
-earth,20,28629,2015-04-16,earth,whois.nic.earth,"<a class=""jqgrid-link"" href=""https://domain.earth/"" target=""_blank"">https://domain.earth/</a>"
-business,13,27981,2014-08-18,business,whois.nic.business,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-family,7,27200,2015-08-06,family,whois.nic.family,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
-church,20,27065,2014-05-08,church,whois.nic.church,"<a class=""jqgrid-link"" href=""http://www.donuts.domains/"" target=""_blank"">http://www.donuts.domains/</a>"
+TLD
+com
+ru
+ir
+net
+org
+in
+ua
+tr
+io
+au
+co
+gr
+vn
+uk
+ca
+id
+info
+jp
+de
+il
+xyz
+me
+fr
+tv
+by
+tw
+online
+edu
+pk
+cn
+app
+eu
+ae
+biz
+pro
+us
+club
+ma
+es
+site
+mx
+рф
+br
+my
+it
+th
+pl
+ch
+cc
+za
+ar
+kz
+np
+sa
+nz
+bd
+kr
+live
+su
+sg
+nl
+cl
+rs
+top
+lk
+ng
+gov
+pe
+shop
+ph
+ai
+cz
+se
+hk
+ro
+store
+news
+az
+tn
+to
+be
+am
+ge
+finance
+pw
+dev
+mk
+hu
+tech
+eg
+space
+link
+dz
+tk
+dk
+fun
+ie
+md
+life
+ke
+gg
+vip
+at
+asia
+no
+fi
+pt
+cloud
+one
+ws
+do
+lt
+mn
+lv
+mobi
+uz
+network
+ec
+website
+media
+ps
+hr
+blog
+jo
+sk
+work
+uy
+bg
+al
+fm
+today
+ml
+qa
+is
+guru
+ee
+world
+icu
+ga
+agency
+ba
+kg
+academy
+digital
+cf
+ve
+xxx
+host
+kw
+video
+click
+ly
+design
+im
+name
+la
+bo
+best
+market
+studio
+win
+om
+vc
+travel
+global
+group
+center
+page
+aero
+plus
+iq
+af
+wiki
+tools
+cash
+exchange
+games
+cyou
+sh
+city
+art
+si
+stream
+cam
+li
+cr
+school
+money
+cy
+download
+bz
+press
+tz
+rocks
+nu
+ltd
+zone
+lb
+cat
+gq
+ninja
+bet
+team
+expert
+gt
+bh
+company
+so
+tj
+ug
+ac
+goog
+trade
+py
+education
+uno
+gh
+chat
+ci
+solutions
+pa
+kh
+run
+africa
+buzz
+watch
+st
+guide
+social
+porn
+ag
+help
+services
+mu
+care
+email
+sy
+sn
+cm
+istanbul
+jobs
+tips
+wtf
+int
+land
+capital
+mt
+pub
+love
+hn
+cx
+re
+zw
+lol
+lu
+tc
+casa
+cool
+codes
+community
+works
+support
+monster
+tube
+red
+style
+bio
+marketing
+rw
+mil
+moscow
+software
+ink
+onl
+bid
+cafe
+men
+cu
+mv
+house
+ovh
+farm
+tm
+tokyo
+clinic
+show
+бел
+bank
+nyc
+sv
+game
+coffee
+sex
+systems
+technology
+tel
+coop
+earth
+surf
+party
+fit
+church
+mg
+sc
+moe
+health
+ms
+deals
+tl
+report
+vision
+mr
+jm
+express
+fund
+london
+google
+онлайн
+ni
+bar
+ooo
+sx
+pics
+pm
+cards
+kim
+bn
+pet
+fj
+build
+casino
+audio
+dog
+et
+partners
+krd
+рус
+canon
+cd
+movie
+mz
+укр
+careers
+zm
+ventures
+review
+menu
+gs
+ist
+business
+training
+fyi
+gallery
+gratis
+gy
+sd
+directory
+law
+foundation
+tt
+university
+gl
+mo
+energy
+bike
+taipei
+lc
+pr
+promo
+rest
+vin
+graphics
+hosting
+na
+direct
+eco
+events
+fashion
+tf
+futbol
+gd
+reviews
+gold
+sale
+scot
+ao
+delivery
+domains
+eus
+film
+bt
+legal
+camp
+mm
+sbi
+cricket
+cv
+sexy
+mw
+date
+wang
+berlin
+realtor
+photography
+公司
+consulting
+bayern
+xin
+family

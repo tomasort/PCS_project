@@ -7,6 +7,13 @@ import sys
 import csv
 import pandas as pd
 import os
+import warnings
+warnings.filterwarnings("ignore")
+
+# This is the main entry point to our application.
+# In this file we make predictions using our Machine Learning model and
+# we interpret those predictions taking into consideration the rules that
+# we have implemented and we return our findings to the user
 
 #get url
 print("Please provide URL to test")
@@ -32,7 +39,6 @@ vector = w.get_features()
 headings = w.get_features_names()
 todelete = []
 
-
 #delete unused columns
 for c in range(len(headings)):
     if ((headings[c] =="url") or (headings[c] == "port") or (headings[c] == "iframes") or (headings[c] =="dir_commas") or (headings[c] == "email_in_url")):
@@ -41,6 +47,8 @@ for c in range(len(headings)):
 data = np.delete(vector, todelete, 0)
 headings = np.delete(headings, todelete, 0)
 
+# for e in range(len(data)):
+#     print(data[e], headings[e])
 
 #get prediction. If prediction fails, mark it as failed
 try:
@@ -48,19 +56,34 @@ try:
     encoders = model.getencoders()
     datalist = data.tolist()
 
-    for c in range(len(datalist)):
-        if(datalist[c]==''):
-            datalist[c] = -1
+    # for c in range(len(datalist)):
+    #     if(datalist[c]==''):
+    #         datalist[c] = -1
     #encode textual features
     for c in range(len(headings)):
         if headings[c] == "file_ext":
-            datalist[c] = encoders[0].transform([str(datalist[c]).strip('"')])[0]
+            try:
+                # if datalist[c] == -1:
+                #     continue
+                datalist[c] = encoders[0].transform([str(datalist[c]).strip('"')])[0]
+            except:
+                datalist[c] = 0
         elif headings[c] == "tld":
-            datalist[c] = encoders[1].transform([str(datalist[c]).strip('"')])[0]
+            try:
+                datalist[c] = encoders[1].transform([str(datalist[c]).strip('"')])[0]
+            except:
+                datalist[c] = 0
         elif headings[c] == "dom_country":
-            datalist[c] = encoders[2].transform([str(datalist[c]).strip('"')])[0]
+            try:
+                datalist[c] = encoders[2].transform([str(datalist[c]).strip('"')])[0]
+            except:
+                datalist[c] = 0
+
         elif headings[c] == "asn_ip":
-            datalist[c] = encoders[3].transform([str(datalist[c]).strip('"')])[0]
+            try:
+                datalist[c] = encoders[3].transform([str(datalist[c]).strip('"')])[0]
+            except:
+                datalist[c] = 0
 
     prediction = model.predict([datalist])[0]
 except:

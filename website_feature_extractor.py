@@ -31,7 +31,7 @@ class timeout():
         signal.alarm(0)
 
 
-tld_df = pd.read_csv("tld/tld2/tlds.csv")
+tld_df = pd.read_csv("tld/tlds.csv")
 
 
 def get_email(url):
@@ -468,15 +468,15 @@ class WebsiteFeatureExtractor:
         self.features['status_code'] = -1
         self.features['live'] = 0
         while retries < self.max_retries:
+            p = Proxies()
             try:
-                p = Proxies()
                 response = requests.get(url, headers=p.get_headers(), timeout=self.timeout, proxies=proxy, allow_redirects=True)
-                # if response.status_code == 200:
-                #     print(f'Success! {url}')
-                # elif response.status_code == 404:
-                #     print('Page Not Found.')
-                # else:
-                #     print('Status code: ', response.status_code)
+                if response.status_code == 200:
+                    print(f'200 Success!')
+                elif response.status_code == 404:
+                    print('404 Page Not Found.')
+                else:
+                    print('Status code: ', response.status_code)
                 self.features['tls_ssl_cert'] = 1
                 self.features['status_code'] = response.status_code
                 self.features['cookies'] = 1 if 'Cookie' in response.headers.keys() or 'Set-Cookie' in response.headers.keys() else 0
@@ -533,7 +533,7 @@ class WebsiteFeatureExtractor:
         with redirect_stdout(f):
             # remember that the url is of the form scheme://netloc/path;parameters?query#fragment.
             try:
-                self.whois_record = whois(self.parsed_url.netloc)  # the whois method takes the netloc part of the url.
+                self.whois_record = whois(parsed_url.netloc)  # the whois method takes the netloc part of the url.
             except:
                 pass
         out = f.getvalue()  # get the string from f into out
