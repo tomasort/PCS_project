@@ -10,7 +10,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 already_scraped_df = pd.read_csv("legit_data_collected.csv", header=None)
 already_scraped_df[0] = already_scraped_df[0].apply(lambda x : unquote(urlparse(unquote(x)).netloc + urlparse(unquote(x)).path))
-url_df = pd.read_csv("data/legit_sample.csv")
+url_df = pd.read_csv("data/legitimate_urls.csv")
 url_df.drop(url_df[url_df['0'].apply(lambda x : unquote(urlparse(unquote(x)).netloc + urlparse(unquote(x)).path)).isin(already_scraped_df[0].unique())].index, inplace=True)
 print(len(url_df))
 

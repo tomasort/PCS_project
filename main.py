@@ -119,15 +119,15 @@ if url not in data.url:
             vector.append(1)
             write = csv.writer(f)
             write.writerow(vector)
-            if os.path.exists("data.ser"):
-                os.remove("data.ser")
+            if os.path.exists("serialized/data.ser"):
+                os.remove("serialized/data.ser")
     elif answer =="safe":
         with open("data/phishing.csv", 'a') as f:
             vector.append(0)
             write = csv.writer(f)
             write.writerow(vector)
-            if os.path.exists("data.ser"):
-                os.remove("data.ser")
+            if os.path.exists("serialized/data.ser"):
+                os.remove("serialized/data.ser")
 
 with open("whitelist.txt", 'w') as f1, open("blacklist.txt", 'w') as f2:
     for line in whitelist:

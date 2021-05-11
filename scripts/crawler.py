@@ -14,9 +14,14 @@ url_regex = re.compile(
         r'(?::\d+)?' # optional port
         r'(?:/?|[/?]\S+)$', re.IGNORECASE)
 
-# TODO: add concurrency
 class Crawler:
-    """Class for recursively crawl the pages in a specific URL provided by the user"""
+    """
+    Class that recursively crawls the pages in a specific URL provided by the user
+
+        This class allows users to collect the URLs from a specific page. If the levels attribute
+        is larger than 1 then the crawler crawls the URLs collected in the first page until the number
+        of desired levels is reached.
+    """
 
     def __init__(self, url, max_tries=2, levels=2):
         self.url = url

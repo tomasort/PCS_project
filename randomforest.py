@@ -19,10 +19,10 @@ class RandomForest:
     def __init__(self):
     #start = time.time()
         try:
-            f = open("randomforest.ser", 'rb')
+            f = open("serialized/randomforest.ser", 'rb')
             self.randomforest = pickle.load(f)
             f.close()
-            f = open("data.ser", 'rb')
+            f = open("serialized/data.ser", 'rb')
             data = pickle.load(f)
             f.close()
             #n_cols = data.shape[1]
@@ -31,7 +31,7 @@ class RandomForest:
 
             #predictorslist = list(map(tuple, predictors))
             #classifierlist = classifier.tolist()
-            with open("fileext.ser", 'rb') as f1, open("tld.ser", 'rb') as f2, open("domcountry.ser", 'rb') as f3, open("asnip.ser", 'rb') as f4:
+            with open("serialized/fileext.ser", 'rb') as f1, open("serialized/tld.ser", 'rb') as f2, open("serialized/domcountry.ser", 'rb') as f3, open("serialized/asnip.ser", 'rb') as f4:
                 self.leFILEEXT = pickle.load(f1)
                 self.leTLD = pickle.load(f2)
                 self.leDOMCOUNTRY = pickle.load(f3)
@@ -42,13 +42,13 @@ class RandomForest:
             X_train, self.X_test, y_train, self.y_test = train_test_split(predictors, classifier, test_size=0.2,random_state=109)
         except FileNotFoundError:
             #import data
-            with open("data/collected_data.csv") as f:
+            with open("data/phishing.csv") as f:
                 #determining number of columns from the first line of text
                 n_cols = len(f.readline().split(","))
 
-            #data = np.loadtxt("./dataset_full.csv", delimiter = ",", skiprows=1)
-            headers = [*pd.read_csv('data/collected_data.csv', nrows=1)]
-            data = pd.read_csv('data/collected_data.csv', usecols=[c for c in headers if c != 'url']).fillna(value = -1)
+            #data = np.loadtxt("./old_dataset_full.csv", delimiter = ",", skiprows=1)
+            headers = [*pd.read_csv('data/phishing.csv', nrows=1)]
+            data = pd.read_csv('data/phishing.csv', usecols=[c for c in headers if c != 'url']).fillna(value = -1)
             #print(data[0])
             #data = np.delete(data, slice(39,n_cols-1),1)
             #todelete = [107,104,16,102,103,4,20,110,10,38,11,108,8,13,106,15,109,9,12,14,21,39,25,24,27,30,28,29,26,23,32,31,34,33,35,22]
@@ -78,13 +78,13 @@ class RandomForest:
             self.leASNIP.fit(np.unique(col))
             data["asn_ip"] = self.leASNIP.transform(col)
 
-            with open("fileext.ser", 'wb') as f1, open("tld.ser", 'wb') as f2, open("domcountry.ser", 'wb') as f3, open("asnip.ser", 'wb') as f4:
+            with open("serialized/fileext.ser", 'wb') as f1, open("serialized/tld.ser", 'wb') as f2, open("serialized/domcountry.ser", 'wb') as f3, open("serialized/asnip.ser", 'wb') as f4:
                 pickle.dump(self.leFILEEXT, f1)
                 pickle.dump(self.leTLD, f2)
                 pickle.dump(self.leDOMCOUNTRY, f3)
                 pickle.dump(self.leASNIP, f4)
 
-            with open("data.ser", 'wb') as f2:
+            with open("serialized/data.ser", 'wb') as f2:
                 pickle.dump(data, f2)
 
             classifier = data.pop("label")
@@ -108,7 +108,7 @@ class RandomForest:
             #print(X_train[0])
             #print(y_train)
             self.randomforest.fit(X_train,y_train)
-            with open("randomforest.ser", 'wb') as f1:
+            with open("serialized/randomforest.ser", 'wb') as f1:
                 pickle.dump(self.randomforest,f1)
 
 

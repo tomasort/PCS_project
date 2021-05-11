@@ -130,33 +130,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-/phishing attack papers/10.1.1.218.175.pdf
-/phishing attack papers/useful_papers/504.pdf
-/phishing attack papers/useful_papers/1344-3618-1-PB.pdf
-/phishing attack papers/2012_Book_AdvancedComputingNetworkingAnd.pdf
-/phishing attack papers/2020_Book_IntelligentComputingMethodolog.pdf
-/phishing attack papers/05279573.pdf
-/phishing attack papers/06151977.pdf
-/phishing attack papers/06993036.pdf
-/phishing attack papers/07095870.pdf
-/phishing attack papers/07237323.pdf
-/phishing attack papers/07536598.pdf
-/phishing attack papers/07746247.pdf
-/phishing attack papers/07881507.pdf
-/phishing attack papers/07926371.pdf
-/phishing attack papers/08328445.pdf
-/phishing attack papers/08858884.pdf
-/phishing attack papers/useful_papers/08888416.pdf
-/phishing attack papers/useful_papers/08924660.pdf
-/phishing attack papers/useful_papers/09032492.pdf
-/phishing attack papers/09055943.pdf
-/phishing attack papers/09343044.pdf
-/phishing attack papers/09357145.pdf
-/phishing attack papers/A Self-training Method for Detection of Phishing Websites.pdf
-/phishing attack papers/ContentServer.pdf
-/phishing attack papers/ContentServer (1).pdf
-/phishing attack papers/useful_papers/ContentServer (2).pdf
-/phishing attack papers/ContentServer (3).pdf
+/phishing attack papers
 /data/dataset_full.csv.arff
 /.idea/dbnavigator.xml
 /phishing attack papers/Hiding in Plain Sight- The Anatomy of Malicious Pages on Facebook.pdf
