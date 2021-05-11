@@ -7,7 +7,8 @@ from sklearn.metrics import precision_recall_fscore_support
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
-#import time
+#This class is unused and is here for showing our progress in Machine Learning model selection
+#It does not work with current main.py and directory structure
 class MachineLearning:
     X_test = []
     y_test = []

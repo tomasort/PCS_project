@@ -5,7 +5,9 @@ from googlesearch import search
 
 
 class RuleBased:
+
     def flags(self, url):
+        #strip URL
         stripped = url.strip().replace("http://www.","")
         stripped = stripped.strip().replace("https://www.","")
         stripped = stripped.strip().replace("www.","")
@@ -66,10 +68,6 @@ class RuleBased:
                 domainnotinindex = False
 
 
-
+        #return flags as list
         return([isIP, hasbadchars, hasfeatures, urlnotinIndex, domainnotinindex])
-        # print("IsIP: " + str(isIP))
-        # print("Badchars: " + str(hasbadchars))
-        # print("hasfeatures: " + str(hasfeatures))
-        # print("Url not in Search: " + str(urlnotinIndex))
-        # print("Domain not in Search: " + str(domainnotinindex))
+        

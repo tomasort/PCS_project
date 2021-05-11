@@ -7,8 +7,9 @@ from sklearn.metrics import roc_auc_score
 from sklearn.metrics import precision_recall_fscore_support
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
-#import time
+#Random forest machine learning
 class RandomForest:
+    #variables
     X_test = []
     y_test = []
     randomforest = None
@@ -17,7 +18,7 @@ class RandomForest:
     leDOMCOUNTRY = None
     leASNIP = None
     def __init__(self):
-    #start = time.time()
+        #get serialized data
         try:
             f = open("serialized/randomforest.ser", 'rb')
             self.randomforest = pickle.load(f)
@@ -25,12 +26,7 @@ class RandomForest:
             f = open("serialized/data.ser", 'rb')
             data = pickle.load(f)
             f.close()
-            #n_cols = data.shape[1]
-            #predictors = data[:, 0:n_cols-1]
-            #classifier = data[:, n_cols-1]
 
-            #predictorslist = list(map(tuple, predictors))
-            #classifierlist = classifier.tolist()
             with open("serialized/fileext.ser", 'rb') as f1, open("serialized/tld.ser", 'rb') as f2, open("serialized/domcountry.ser", 'rb') as f3, open("serialized/asnip.ser", 'rb') as f4:
                 self.leFILEEXT = pickle.load(f1)
                 self.leTLD = pickle.load(f2)
@@ -38,7 +34,7 @@ class RandomForest:
                 self.leASNIP = pickle.load(f4)
             classifier = data.pop("label")
             predictors = data
-            #X_train, self.X_test, y_train, self.y_test = train_test_split(predictorslist, classifierlist, test_size=0.2,random_state=109)
+            #set up variables
             X_train, self.X_test, y_train, self.y_test = train_test_split(predictors, classifier, test_size=0.2,random_state=109)
         except FileNotFoundError:
             #import data
@@ -46,18 +42,13 @@ class RandomForest:
                 #determining number of columns from the first line of text
                 n_cols = len(f.readline().split(","))
 
-            #data = np.loadtxt("./old_dataset_full.csv", delimiter = ",", skiprows=1)
+            #read in data from CSV
             headers = [*pd.read_csv('data/phishing.csv', nrows=1)]
-            data = pd.read_csv('data/phishing.csv', usecols=[c for c in headers if c != 'url']).fillna(value = -1)
-            #print(data[0])
-            #data = np.delete(data, slice(39,n_cols-1),1)
-            #todelete = [107,104,16,102,103,4,20,110,10,38,11,108,8,13,106,15,109,9,12,14,21,39,25,24,27,30,28,29,26,23,32,31,34,33,35,22]
-            #data = np.delete(data, todelete, 1)
-            #n_cols = data.shape[1]
-            #data.drop(["url_percents","resolved_ips", "url_questions", "dom_hyphens", "url_tildes", "dom_is_ip", "url_commas", "url_exclamations", "url_asts", "tls_ssl_cert", "url_dollars", "url_spaces", "url_pluses", "url_pounds", "dom_underlines", "dom_server_or_client", "dom_ats", "dom_equals", "dom_exclamations", "dom_commas", "dom_spaces", "dom_tilde", "dom_amps", "dom_questions", "dom_asts", "dom_pluses", "dom_dollars", "dom_pounds", "dom_percents", "dom_slashes"], axis=1, inplace=True)
-            #data.drop(["url_percents","resolved_ips", "url_questions", "dom_hyphens", "url_tildes", "dom_is_ip", "url_commas", "url_exclamations", "url_asts", "tls_ssl_cert", "url_dollars", "url_spaces", "url_pluses", "url_pounds", "dom_underlines", "dom_server_or_client", "dom_ats", "dom_equals", "dom_exclamations", "dom_commas", "dom_spaces", "dom_tilde", "dom_amps", "dom_questions", "dom_asts", "dom_pluses", "dom_dollars", "dom_pounds", "dom_percents", "dom_slashes", "dom_country","cookies","redirects","status_code","hidden_elements","display_none_elements","forms","ext_form_actions","page_content_length","popup_windows","disable_right_click","email_in_script","favicon","ext_favicon","img","null_self_redirects","a_tags","ext_links","iframes","port"], axis=1, inplace=True)
+            data = pd.read_csv('data/phishing.csv', usecols=[c for c in headers if c != 'url'], low_memory=False).fillna(value = -1)
+            #drop unused columns
             data.drop(["port","iframes", "dir_commas","email_in_url"], axis=1, inplace=True)
 
+            #Encode textual features
             self.leFILEEXT = LabelEncoder()
             col = data.pop("file_ext").astype(str)
             self.leFILEEXT.fit(np.unique(col))
@@ -78,55 +69,47 @@ class RandomForest:
             self.leASNIP.fit(np.unique(col))
             data["asn_ip"] = self.leASNIP.transform(col)
 
+            #dump encoders to maintain state
             with open("serialized/fileext.ser", 'wb') as f1, open("serialized/tld.ser", 'wb') as f2, open("serialized/domcountry.ser", 'wb') as f3, open("serialized/asnip.ser", 'wb') as f4:
                 pickle.dump(self.leFILEEXT, f1)
                 pickle.dump(self.leTLD, f2)
                 pickle.dump(self.leDOMCOUNTRY, f3)
                 pickle.dump(self.leASNIP, f4)
 
+            #dump data
             with open("serialized/data.ser", 'wb') as f2:
                 pickle.dump(data, f2)
 
+            #split predictors and classifiers
             classifier = data.pop("label")
             predictors = data
-            #print(predictors)
 
-            ##predictorslist = list(predictors.to_records(index=False))
-            ##classifierlist = list(classifier)
-
-
-            #predictors = data[:, 0:n_cols-1]
-            #classifier = data[:, n_cols-1]
-
-            #predictorslist = list(map(tuple, predictors))
-            #classifierlist = classifier.tolist()
-
-            #Randomforest
-
+            #train random forest
             X_train, self.X_test, y_train, self.y_test = train_test_split(predictors, classifier, test_size=0.2,random_state=109) # 80% training and 20% test
             self.randomforest = RandomForestClassifier(n_estimators=100, bootstrap = True, max_features = 'sqrt')
-            #print(X_train[0])
-            #print(y_train)
             self.randomforest.fit(X_train,y_train)
             with open("serialized/randomforest.ser", 'wb') as f1:
                 pickle.dump(self.randomforest,f1)
 
-
+    #predict whether a URL is phishing from its features
     def predict(self,features):
         prediction = self.randomforest.predict(features)
         return prediction
+    #return prediction probabilities for evaluation
     def probs(self,features):
         probs = self.randomforest.predict_proba(features)[:, 1]
         return probs
+    #get test data for evaluation
     def getstuff(self):
         return [self.X_test, self.y_test]
+    #get encoders for encoding in main
     def getencoders(self):
         return [self.leFILEEXT, self.leTLD, self.leDOMCOUNTRY, self.leASNIP]
 
 
-    #end = time.time()
-    #print("time to read and train: " + str(end-start))
+
 if __name__ == "__main__":
+    #Testing and evaluation
     m = RandomForest()
     vals = m.getstuff()
     y_pred = m.predict(vals[0])
